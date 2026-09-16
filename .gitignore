@@ -1,0 +1,14 @@
+# Internal audit & research files (do not publish internal company data)
+research/
+archive/
+Ghi_chu_doi_chieu.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary & Preview
+preview_page*.png
+*.tmp
+.DS_Store
