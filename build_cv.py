@@ -5,7 +5,7 @@ P = Path(__file__).parent
 
 # Candidate Information
 name = "PHÙNG XUÂN QUÝ THÀNH"
-role = "LẬP TRÌNH VIÊN BACKEND .NET · SQL SERVER"
+role = "FULL-STACK DEVELOPER (.NET / ANGULAR / SQL SERVER)"
 contact_items = [
     ("phone", "0975 748 203"),
     ("email", "phungxuanquythanh@gmail.com", "mailto:phungxuanquythanh@gmail.com"),
@@ -14,63 +14,63 @@ contact_items = [
 ]
 
 summary = (
-    "Lập trình viên Backend .NET với gần 2,5 năm kinh nghiệm thực chiến tại UniCloud, có thế mạnh chuyên sâu "
-    "về SQL Server và xử lý nghiệp vụ tại tầng dữ liệu. Trực tiếp xây dựng và tối ưu khoảng 80 Stored Procedure, "
-    "thiết kế giải pháp bulk import dữ liệu lớn và chuẩn hóa cơ chế thông báo đa ngôn ngữ dùng chung toàn hệ thống. "
-    "Thành thạo phát triển Web API trên nền tảng .NET theo Clean Architecture và mô hình CQRS."
+    "Lập trình viên Full-stack .NET với hơn 2 năm kinh nghiệm thực chiến tại UniCloud (06/2022 – Hiện tại), "
+    "thành thạo phát triển Web API bằng ASP.NET Core, xây dựng giao diện người dùng Angular và xử lý chuyên sâu "
+    "cơ sở dữ liệu SQL Server. Có kinh nghiệm áp dụng Clean Architecture, SOLID, CQRS, tối ưu hiệu năng Stored Procedure, "
+    "tích hợp Redis caching và xử lý tác vụ bất đồng bộ qua Kafka."
 )
 
 skills = [
     {
         "category": "CƠ SỞ DỮ LIỆU",
-        "items": "SQL Server, T-SQL, Thiết kế CSDL, Tối ưu hóa truy vấn, Stored Procedure"
+        "items": "SQL Server, T-SQL, Thiết kế CSDL, Tối ưu hóa truy vấn, Stored Procedure, Indexing"
     },
     {
         "category": "BACKEND .NET",
-        "items": "C#, ASP.NET Core, Clean Architecture, CQRS, Dapper, Entity Framework"
+        "items": "C#, ASP.NET Core Web API, Clean Architecture, SOLID, CQRS, Dapper, Entity Framework, LINQ"
     },
     {
-        "category": "KIẾN TRÚC & TÍCH HỢP",
-        "items": "RESTful API, Repository Pattern, Shared Libraries, FlexCel, Keycloak"
+        "category": "FRONTEND & TÍCH HỢP",
+        "items": "Angular, TypeScript, RESTful API, Redis Caching, Kafka, Docker, FlexCel, Keycloak"
     },
     {
         "category": "QUY TRÌNH & CÔNG CỤ",
-        "items": "Git, GitLab, CI/CD, Database Migration, Docker, Postman, ADR"
+        "items": "Git, GitLab, CI/CD, Database Migration, Postman, Code Review, Testing, ADR"
     }
 ]
 
 projects_page1 = [
     {
-        "name": "Resident — Hệ thống Quản lý Cư dân & Đô thị thông minh",
-        "role": "Backend .NET & SQL Developer",
-        "tech": "C#, ASP.NET Core, SQL Server",
+        "name": "Enterprise HRM System",
+        "date": "06/2022 – Hiện tại",
+        "location": "Hà Nội",
+        "role": "Full-stack Developer",
+        "team_size": "10 thành viên",
+        "tech": ".NET Core, Angular, SQL Server, Redis, Kafka, Docker",
         "bullets": [
-            "<strong>Thiết kế giải pháp bulk import phương tiện:</strong> xử lý đồng thời hơn 1.000 bản ghi/lần từ file Excel, rút ngắn thời gian xử lý từ 2 phút xuống dưới 3 giây và loại bỏ 95% round-trip giữa API và Database nhờ cơ chế kiểm soát dữ liệu 2 lớp tại tầng SQL.",
-            "<strong>Xây dựng giải pháp thông báo đa ngôn ngữ dùng chung:</strong> tự động phân giải thông điệp theo ngôn ngữ yêu cầu kèm cơ chế fallback dự phòng an toàn; được chuẩn hóa áp dụng nhất quán cho 100% Stored Procedure mới và Web API trên toàn hệ thống.",
-            "<strong>Phát triển nghiệp vụ & API quản lý phương tiện và thẻ cư dân:</strong> xây dựng trọn vẹn quy trình cấp phát, đổi thẻ, khóa/mở khóa thẻ kèm lưu vết lịch sử; tính toán biểu phí dịch vụ và hoàn phí tự động; triển khai phân quyền người dùng theo vai trò và cây chức năng."
-        ]
-    },
-    {
-        "name": "UniHRM — Hệ thống Quản trị Nhân sự & Tiền lương",
-        "role": "Backend .NET & SQL Developer",
-        "tech": "C#, ASP.NET Core, SQL Server, Dapper, FlexCel",
-        "bullets": [
-            "<strong>Tối ưu hiệu năng luồng xử lý biến động bảo hiểm xã hội:</strong> áp dụng kỹ thuật Multiple Result Sets cùng Dapper, truy xuất đồng thời toàn bộ danh mục đối chiếu và dữ liệu mẫu chỉ trong 1 truy vấn duy nhất, giảm thiểu tối đa tải mạng.",
-            "<strong>Tự động hóa quy trình thông báo lịch phỏng vấn và tiếp nhận nhân sự:</strong> xây dựng logic lọc dữ liệu ứng viên theo đơn vị, tự động gom nhóm để kích hoạt hệ thống push notification hàng loạt.",
-            "<strong>Phát triển module báo cáo bảo hiểm và bảng lương:</strong> tích hợp và ánh xạ dữ liệu phức tạp từ SQL Server lên API; xử lý linh hoạt cấu hình gom nhóm, các trường thông tin động và chu kỳ lương doanh nghiệp."
+            "Phát triển và maintain các module Employee, Contract, Salary, Process.",
+            "Xây dựng RESTful API bằng ASP.NET Core và frontend bằng Angular.",
+            "Tối ưu SQL Server query, Stored Procedure, Index và LINQ.",
+            "Áp dụng Clean Architecture, SOLID và CQRS.",
+            "Sử dụng Redis cho caching và Kafka cho asynchronous processing.",
+            "Tham gia code review, debugging, testing và deployment."
         ]
     }
 ]
 
 projects_page2 = [
     {
-        "name": "Bizzone & Cổng thông tin nhân sự — Enterprise HRM Portal",
+        "name": "Smart Resident Management System",
+        "date": "05/2024 – Hiện tại",
+        "location": "Hà Nội",
         "role": "Backend .NET & SQL Developer",
-        "tech": "C#, ASP.NET Core, SQL Server, FlexCel, Keycloak",
+        "team_size": "8 thành viên",
+        "tech": ".NET Core, SQL Server, Redis, Docker, Dapper",
         "bullets": [
-            "<strong>Xây dựng hệ thống Stored Procedure báo cáo đánh giá năng lực:</strong> xử lý ma trận tiêu chí khảo sát đa chiều, tính điểm trung bình và phân vị xếp hạng theo bộ phận và toàn công ty cho hơn 5.000 nhân sự trên Web Portal.",
-            "<strong>Tự động hóa kết xuất báo cáo doanh nghiệp bằng FlexCel:</strong> ánh xạ dữ liệu từ cơ sở dữ liệu vào biểu mẫu động, tự động hóa xuất báo cáo khảo sát định dạng Excel và PDF với độ chính xác cao.",
-            "<strong>Đồng bộ vòng đời nhân sự và bảo trì hệ thống Core HRM:</strong> xây dựng luồng chuyển đổi tự động từ ứng viên trúng tuyển sang nhân viên chính thức; xử lý nghiệp vụ thai sản, cam kết đào tạo và bảo trì tích hợp xác thực tập trung Keycloak."
+            "Thiết kế giải pháp bulk import phương tiện: xử lý đồng thời hơn 1.000 bản ghi/lần từ file Excel, rút ngắn thời gian xử lý từ 2 phút xuống dưới 3 giây và loại bỏ 95% round-trip giữa API và Database.",
+            "Xây dựng giải pháp thông báo đa ngôn ngữ dùng chung với cơ chế fallback dự phòng an toàn, chuẩn hóa áp dụng nhất quán cho 100% Stored Procedure mới và Web API trên toàn hệ thống.",
+            "Phát triển toàn diện nghiệp vụ & API quản lý phương tiện, vòng đời thẻ cư dân, biểu phí dịch vụ và phân quyền người dùng theo vai trò và cây chức năng.",
+            "Tối ưu hiệu năng truy vấn, Stored Procedure và cấu trúc cơ sở dữ liệu cho phân hệ quản lý vận hành đô thị."
         ]
     }
 ]
@@ -78,9 +78,9 @@ projects_page2 = [
 personal_projects = [
     {
         "name": "AI-Powered Cinema Platform",
-        "sub": "Hệ thống đặt vé xem phim trực tuyến hiện đại",
+        "role": "Personal Project (Owner)",
         "link": "https://github.com/Xuanthanh-dzz/AI-Powered-Cinema-Platform",
-        "tech": "C#, .NET 10, Clean Architecture, CQRS, Docker",
+        "tech": "C#, .NET 10, Clean Architecture, CQRS, MediatR, FluentValidation, Docker",
         "bullets": [
             "Thiết kế hệ thống theo Clean Architecture kết hợp mô hình CQRS phân tách Command và Query qua MediatR và FluentValidation.",
             "Chuẩn hóa quy trình kỹ thuật qua Architecture Decision Records (ADR) nhằm lưu vết các quyết định thiết kế kiến trúc hệ thống."
@@ -88,9 +88,9 @@ personal_projects = [
     },
     {
         "name": "Full-Stack Engineering Handbook",
-        "sub": "Kho tài liệu kỹ thuật & Lộ trình chuyên sâu Computer Science",
+        "role": "Technical Writer & Developer",
         "link": "https://github.com/Xuanthanh-dzz/full-stack",
-        "tech": "C / C++, C# (.NET 10), Computer Science",
+        "tech": "Computer Science, C / C++, C# (.NET 10), Markdown, GitHub Pages",
         "bullets": [
             "Hệ thống hóa kiến thức nền tảng khoa học máy tính và tối ưu tài nguyên: quản lý bộ nhớ C/C++, nguyên lý hướng đối tượng và kỹ thuật chuyên sâu trên nền tảng .NET."
         ]
@@ -197,7 +197,10 @@ body {
 
 /* Sections */
 .section {
-  margin-bottom: 4mm;
+  margin-bottom: 3.8mm;
+}
+.page1 .section {
+  margin-bottom: 5mm;
 }
 .section-title {
   font-size: 9.8pt;
@@ -219,6 +222,9 @@ body {
   margin: 0;
   color: #334155;
 }
+.page1 .summary-text {
+  line-height: 1.58;
+}
 
 /* Skills Grid */
 .skills-grid {
@@ -226,12 +232,18 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 2.2mm 3.5mm;
 }
+.page1 .skills-grid {
+  gap: 3mm 4mm;
+}
 .skill-card {
   background: #f8fafc;
   border: 1px solid #e2e8f0;
   border-left: 3px solid #1e40af;
   border-radius: 3px;
   padding: 2mm 3mm;
+}
+.page1 .skill-card {
+  padding: 2.6mm 3.5mm;
 }
 .skill-cat {
   font-size: 8.2pt;
@@ -245,13 +257,16 @@ body {
   color: #334155;
   line-height: 1.38;
 }
+.page1 .skill-items {
+  line-height: 1.45;
+}
 
 /* Work Experience */
 .company-header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-bottom: 2.2mm;
+  margin-bottom: 2.5mm;
   background: #f1f5f9;
   padding: 1.8mm 3mm;
   border-radius: 3px;
@@ -262,7 +277,7 @@ body {
   color: #0f172a;
 }
 .company-title {
-  font-size: 9pt;
+  font-size: 8.8pt;
   color: #475569;
   font-weight: 600;
   margin-left: 2mm;
@@ -275,18 +290,41 @@ body {
 
 /* Projects */
 .project-card {
-  margin-bottom: 3.2mm;
+  margin-bottom: 3.5mm;
 }
-.project-title-row {
+.project-top-row {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-bottom: 0.8mm;
+  margin-bottom: 1mm;
 }
-.project-name {
-  font-size: 9.8pt;
-  font-weight: 700;
+.project-title {
+  font-size: 10pt;
+  font-weight: 800;
   color: #0f172a;
+}
+.project-date-loc {
+  font-size: 8.6pt;
+  font-weight: 700;
+  color: #1e40af;
+}
+.project-meta-box {
+  background: #f8fafc;
+  border-left: 3px solid #1e40af;
+  padding: 1.5mm 3mm;
+  margin-bottom: 2mm;
+  border-radius: 2px;
+  font-size: 8.5pt;
+  color: #334155;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1mm 6mm;
+}
+.meta-item strong {
+  color: #0f172a;
+}
+.meta-tech {
+  flex-basis: 100%;
 }
 .repo-tag {
   font-size: 7.8pt;
@@ -302,12 +340,6 @@ body {
 .repo-tag:hover {
   background: #dbeafe;
 }
-.project-tech {
-  font-size: 8.2pt;
-  color: #0d9488;
-  font-weight: 600;
-  margin-bottom: 1.5mm;
-}
 ul.bullets {
   margin: 0;
   padding-left: 4.5mm;
@@ -316,7 +348,7 @@ ul.bullets li {
   font-size: 8.8pt;
   line-height: 1.45;
   color: #334155;
-  margin-bottom: 1.4mm;
+  margin-bottom: 1.2mm;
   text-align: justify;
 }
 ul.bullets li strong {
@@ -360,10 +392,19 @@ ul.bullets li strong {
 """
 
 def render_project(p):
+    team_size_html = f'<span class="meta-item"><strong>Team size:</strong> {e(p["team_size"])}</span>' if "team_size" in p else ""
+    date_loc = f'{e(p.get("date", ""))} | {e(p.get("location", "Hà Nội"))}' if "date" in p else ""
     return (
         f'<div class="project-card">'
-        f'<div class="project-title-row"><span class="project-name">{e(p["name"])}</span></div>'
-        f'<div class="project-tech">Công nghệ: {e(p["tech"])}</div>'
+        f'<div class="project-top-row">'
+        f'<div class="project-title">Project: {e(p["name"])}</div>'
+        f'<div class="project-date-loc">{e(date_loc)}</div>'
+        f'</div>'
+        f'<div class="project-meta-box">'
+        f'<span class="meta-item"><strong>Role:</strong> {e(p["role"])}</span>'
+        f'{team_size_html}'
+        f'<div class="meta-item meta-tech"><strong>Tech:</strong> {e(p["tech"])}</div>'
+        f'</div>'
         f'<ul class="bullets">'
         + "".join(f"<li>{b}</li>" for b in p["bullets"])
         + f"</ul></div>"
@@ -372,11 +413,14 @@ def render_project(p):
 def render_personal(p):
     return (
         f'<div class="project-card">'
-        f'<div class="project-title-row">'
-        f'<div><span class="project-name">{e(p["name"])}</span>'
+        f'<div class="project-top-row">'
+        f'<div><span class="project-title">Project: {e(p["name"])}</span>'
         f'<a href="{p["link"]}" target="_blank" class="repo-tag">GitHub ↗</a></div>'
         f'</div>'
-        f'<div class="project-tech">Công nghệ: {e(p["tech"])}</div>'
+        f'<div class="project-meta-box">'
+        f'<span class="meta-item"><strong>Role:</strong> {e(p["role"])}</span>'
+        f'<div class="meta-item meta-tech"><strong>Tech:</strong> {e(p["tech"])}</div>'
+        f'</div>'
         f'<ul class="bullets">'
         + "".join(f"<li>{b}</li>" for b in p["bullets"])
         + f"</ul></div>"
@@ -399,7 +443,7 @@ skills_html = '<div class="skills-grid">' + "".join(
 ) + '</div>'
 
 page1_html = f"""
-<section class="page">
+<section class="page page1">
   <header class="header">
     <h1 class="candidate-name">{name}</h1>
     <div class="candidate-role">{role}</div>
@@ -421,16 +465,15 @@ page1_html = f"""
     <div class="company-header">
       <div>
         <span class="company-name">UniCloud</span>
-        <span class="company-title">— Chuyên viên lập trình Backend .NET & SQL Server</span>
+        <span class="company-title">— Enterprise Software & Cloud Solutions</span>
       </div>
-      <span class="company-date">05/2024 – Hiện tại</span>
+      <span class="company-date">06/2022 – Hiện tại | Hà Nội</span>
     </div>
     {render_project(projects_page1[0])}
-    {render_project(projects_page1[1])}
   </div>
 
   <footer class="footer">
-    <span>{name} · HỒ SƠ ỨNG TUYỂN BACKEND DEVELOPER</span>
+    <span>{name} · HỒ SƠ ỨNG TUYỂN FULL-STACK DEVELOPER</span>
     <span>Trang 01 / 02</span>
   </footer>
 </section>
@@ -444,7 +487,7 @@ contributions_html = '<ul class="bullets">' + "".join(
 page2_html = f"""
 <section class="page">
   <div class="running-header">
-    <span>{name} · BACKEND .NET & SQL SERVER DEVELOPER</span>
+    <span>{name} · FULL-STACK DEVELOPER (.NET / ANGULAR)</span>
     <span>Hồ sơ năng lực & kinh nghiệm</span>
   </div>
 
@@ -476,7 +519,7 @@ page2_html = f"""
   </div>
 
   <footer class="footer">
-    <span>{name} · HỒ SƠ ỨNG TUYỂN BACKEND DEVELOPER</span>
+    <span>{name} · HỒ SƠ ỨNG TUYỂN FULL-STACK DEVELOPER</span>
     <span>Trang 02 / 02</span>
   </footer>
 </section>
@@ -526,11 +569,13 @@ md_content += f"""
 
 ## Kinh nghiệm làm việc
 
-**UniCloud — Chuyên viên lập trình Backend .NET & SQL Server**  
-*05/2024 – Hiện tại*
+**UniCloud — Enterprise Software & Cloud Solutions**  
+*06/2022 – Hiện tại | Hà Nội*
 
-### {projects_page1[0]['name']}
-*Công nghệ: {projects_page1[0]['tech']}*
+### Project: {projects_page1[0]['name']}
+*{projects_page1[0]['date']} | {projects_page1[0]['location']}*  
+**Role:** {projects_page1[0]['role']} | **Team size:** {projects_page1[0]['team_size']}  
+**Tech:** {projects_page1[0]['tech']}  
 
 """
 for b in projects_page1[0]['bullets']:
@@ -538,17 +583,10 @@ for b in projects_page1[0]['bullets']:
     md_content += f"- {clean_b}\n"
 
 md_content += f"""
-### {projects_page1[1]['name']}
-*Công nghệ: {projects_page1[1]['tech']}*
-
-"""
-for b in projects_page1[1]['bullets']:
-    clean_b = b.replace('<strong>', '**').replace('</strong>', '')
-    md_content += f"- {clean_b}\n"
-
-md_content += f"""
-### {projects_page2[0]['name']}
-*Công nghệ: {projects_page2[0]['tech']}*
+### Project: {projects_page2[0]['name']}
+*{projects_page2[0]['date']} | {projects_page2[0]['location']}*  
+**Role:** {projects_page2[0]['role']} | **Team size:** {projects_page2[0]['team_size']}  
+**Tech:** {projects_page2[0]['tech']}  
 
 """
 for b in projects_page2[0]['bullets']:
@@ -560,18 +598,20 @@ md_content += f"""
 
 ## Dự án cá nhân & Open Source (GitHub)
 
-### {personal_projects[0]['name']}
-*{personal_projects[0]['sub']} · [{personal_projects[0]['link']}]({personal_projects[0]['link']})*  
-*Công nghệ: {personal_projects[0]['tech']}*
+### Project: {personal_projects[0]['name']}
+*[{personal_projects[0]['link']}]({personal_projects[0]['link']})*  
+**Role:** {personal_projects[0]['role']}  
+**Tech:** {personal_projects[0]['tech']}  
 
 """
 for b in personal_projects[0]['bullets']:
     md_content += f"- {b}\n"
 
 md_content += f"""
-### {personal_projects[1]['name']}
-*{personal_projects[1]['sub']} · [{personal_projects[1]['link']}]({personal_projects[1]['link']})*  
-*Công nghệ: {personal_projects[1]['tech']}*
+### Project: {personal_projects[1]['name']}
+*[{personal_projects[1]['link']}]({personal_projects[1]['link']})*  
+**Role:** {personal_projects[1]['role']}  
+**Tech:** {personal_projects[1]['tech']}  
 
 """
 for b in personal_projects[1]['bullets']:
