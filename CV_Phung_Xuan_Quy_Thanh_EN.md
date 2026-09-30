@@ -33,7 +33,7 @@ Backend .NET Developer with nearly 2.5 years of experience at UniCloud (05/2024 
 
 - Architected a high-throughput vehicle bulk import engine: concurrently processed 1,000+ Excel records per batch, reducing processing time from 2 minutes to under 3 seconds and eliminating 95% of API-to-database round-trips via a two-tier database-level validation mechanism.
 - Contributed to module-level technical design: defined API inputs/outputs, business flows, data structures and Stored Procedures before implementation.
-- Developed end-to-end business workflows and APIs for vehicle and resident card lifecycle management: issuance, card renewal, activation/suspension with audit logging; automated service fee computation and refunds; implemented role-based access control (RBAC).
+- Developed vehicle card creation, data import and history lookup features in the resident management system.
 
 ### Project: UniHRM — Human Resource & Payroll Management System
 *05/2024 – Present | Hanoi*  

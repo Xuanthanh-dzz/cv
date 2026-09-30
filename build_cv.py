@@ -45,7 +45,7 @@ projects_page1 = [
         "bullets": [
             "Thiết kế giải pháp bulk import phương tiện: xử lý đồng thời hơn 1.000 bản ghi/lần từ file Excel, rút ngắn thời gian xử lý từ 2 phút xuống dưới 3 giây và loại bỏ 95% round-trip giữa API và Database nhờ cơ chế kiểm soát dữ liệu 2 lớp tại tầng SQL.",
             "Tham gia phân tích nghiệp vụ và thiết kế chi tiết ở mức module: xác định đầu vào/đầu ra API, luồng xử lý, cấu trúc dữ liệu và Stored Procedure trước khi triển khai.",
-            "Phát triển trọn vẹn nghiệp vụ & API quản lý phương tiện và thẻ cư dân: quy trình cấp phát, đổi thẻ, khóa/mở khóa thẻ kèm lưu vết lịch sử; tính toán biểu phí dịch vụ và hoàn phí tự động; triển khai phân quyền người dùng theo vai trò và cây chức năng."
+            "Phát triển chức năng thêm mới, import dữ liệu và tra cứu lịch sử thẻ xe trong hệ thống quản lý cư dân."
         ]
     },
     {
@@ -660,4 +660,3 @@ Chuyên ngành Công nghệ Thông tin · Tốt nghiệp năm 2024
 
 (P / "CV_Phung_Xuan_Quy_Thanh.md").write_text(md_content, encoding="utf-8")
 print("Build completed successfully: HTML and Markdown generated.")
-
