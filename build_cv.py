@@ -13,12 +13,7 @@ contact_items = [
     ("location", "Hà Nội")
 ]
 
-summary = (
-    "Lập trình viên Backend .NET với gần 2,5 năm kinh nghiệm thực chiến tại UniCloud (05/2024 – Hiện tại), "
-    "có thế mạnh chuyên sâu về SQL Server và xử lý logic nghiệp vụ phức tạp tại tầng dữ liệu. Trực tiếp xây dựng và "
-    "tối ưu khoảng 80 Stored Procedure, thiết kế giải pháp bulk import dữ liệu lớn và chuẩn hóa cơ chế thông báo đa ngôn ngữ "
-    "dùng chung toàn hệ thống. Thành thạo phát triển Web API trên nền tảng .NET theo Clean Architecture và mô hình CQRS."
-)
+summary = 'Lập trình viên Backend .NET với gần 2,5 năm kinh nghiệm tại UniCloud (05/2024 – Hiện tại), tập trung vào C#/ASP.NET Core Web API, SQL Server và xử lý logic nghiệp vụ. Có kinh nghiệm với Repository Pattern, Dapper, Stored Procedure, tối ưu xử lý dữ liệu và thiết kế chi tiết API/database ở mức module. Từng tham gia bảo trì và phát triển chức năng Bizzone cho khách hàng Yamaha. Đang nghiên cứu Clean Architecture và CQRS qua dự án cá nhân mới dựng sườn.'
 
 skills = [
     {
@@ -27,7 +22,7 @@ skills = [
     },
     {
         "category": "BACKEND .NET",
-        "items": "C#, ASP.NET Core Web API, Clean Architecture, CQRS, Dapper, Entity Framework"
+        "items": "C#, ASP.NET Core Web API, OOP, Dapper, Entity Framework"
     },
     {
         "category": "KIẾN TRÚC & TÍCH HỢP",
@@ -35,7 +30,7 @@ skills = [
     },
     {
         "category": "QUY TRÌNH & CÔNG CỤ",
-        "items": "Git, GitLab, CI/CD, Database Migration, Docker, Postman, ADR"
+        "items": "Git, GitLab, CI/CD, Database Migration, Docker, Postman"
     }
 ]
 
@@ -49,7 +44,7 @@ projects_page1 = [
         "tech": "C#, ASP.NET Core, SQL Server, Repository Pattern",
         "bullets": [
             "Thiết kế giải pháp bulk import phương tiện: xử lý đồng thời hơn 1.000 bản ghi/lần từ file Excel, rút ngắn thời gian xử lý từ 2 phút xuống dưới 3 giây và loại bỏ 95% round-trip giữa API và Database nhờ cơ chế kiểm soát dữ liệu 2 lớp tại tầng SQL.",
-            "Xây dựng giải pháp thông báo đa ngôn ngữ dùng chung: tự động phân giải thông điệp theo ngôn ngữ yêu cầu kèm cơ chế fallback dự phòng an toàn; được chuẩn hóa áp dụng nhất quán cho 100% Stored Procedure mới và Web API trên toàn hệ thống.",
+            "Tham gia phân tích nghiệp vụ và thiết kế chi tiết ở mức module: xác định đầu vào/đầu ra API, luồng xử lý, cấu trúc dữ liệu và Stored Procedure trước khi triển khai.",
             "Phát triển trọn vẹn nghiệp vụ & API quản lý phương tiện và thẻ cư dân: quy trình cấp phát, đổi thẻ, khóa/mở khóa thẻ kèm lưu vết lịch sử; tính toán biểu phí dịch vụ và hoàn phí tự động; triển khai phân quyền người dùng theo vai trò và cây chức năng."
         ]
     },
@@ -77,6 +72,7 @@ projects_page2 = [
         "team_size": "12 thành viên",
         "tech": "C#, ASP.NET Core, SQL Server, FlexCel, Keycloak",
         "bullets": [
+            'Tham gia bảo trì, sửa lỗi và phát triển bổ sung Bizzone cho khách hàng Yamaha; xây dựng function SQL phân giải thông báo đa ngôn ngữ dùng chung.',
             "Xây dựng hệ thống Stored Procedure báo cáo đánh giá năng lực đa chiều: xử lý ma trận tiêu chí khảo sát, tính điểm trung bình và phân vị xếp hạng theo bộ phận và toàn công ty cho hơn 5.000 nhân sự trên Web Portal.",
             "Tự động hóa kết xuất báo cáo doanh nghiệp bằng FlexCel: ánh xạ dữ liệu từ cơ sở dữ liệu vào biểu mẫu động, tự động hóa xuất báo cáo khảo sát định dạng Excel và PDF với độ chính xác cao.",
             "Đồng bộ vòng đời nhân sự và bảo trì hệ thống Core HRM: xây dựng luồng chuyển đổi tự động từ ứng viên trúng tuyển sang nhân viên chính thức; xử lý nghiệp vụ thai sản, cam kết đào tạo và bảo trì tích hợp xác thực tập trung Keycloak."
@@ -92,8 +88,8 @@ personal_projects = [
         "link": "https://github.com/Xuanthanh-dzz/AI-Powered-Cinema-Platform",
         "tech": "C#, .NET 10, Clean Architecture, CQRS, MediatR, FluentValidation, Docker",
         "bullets": [
-            "Thiết kế hệ thống theo Clean Architecture kết hợp mô hình CQRS phân tách Command và Query qua MediatR và FluentValidation.",
-            "Chuẩn hóa quy trình kỹ thuật qua Architecture Decision Records (ADR) nhằm lưu vết các quyết định thiết kế kiến trúc hệ thống."
+            "Dự án đang ở giai đoạn dựng sườn backend; nghiên cứu Clean Architecture và CQRS với MediatR, FluentValidation, chưa hoàn thiện nghiệp vụ.",
+            "Thử nghiệm ghi nhận quyết định thiết kế bằng Architecture Decision Records (ADR) trong quá trình học và xây dựng dự án."
         ]
     },
     {
@@ -593,7 +589,7 @@ md_content += f"""
 
 """
 for b in projects_page1[0]['bullets']:
-    clean_b = b.replace('<strong>', '**').replace('</strong>', '')
+    clean_b = b.replace('<strong>', '**').replace('</strong>', '**')
     md_content += f"- {clean_b}\n"
 
 md_content += f"""
@@ -604,7 +600,7 @@ md_content += f"""
 
 """
 for b in projects_page1[1]['bullets']:
-    clean_b = b.replace('<strong>', '**').replace('</strong>', '')
+    clean_b = b.replace('<strong>', '**').replace('</strong>', '**')
     md_content += f"- {clean_b}\n"
 
 md_content += f"""
@@ -615,7 +611,7 @@ md_content += f"""
 
 """
 for b in projects_page2[0]['bullets']:
-    clean_b = b.replace('<strong>', '**').replace('</strong>', '')
+    clean_b = b.replace('<strong>', '**').replace('</strong>', '**')
     md_content += f"- {clean_b}\n"
 
 md_content += f"""
@@ -650,7 +646,7 @@ md_content += f"""
 
 """
 for c in contributions:
-    clean_c = c.replace('<strong>', '**').replace('</strong>', '')
+    clean_c = c.replace('<strong>', '**').replace('</strong>', '**')
     md_content += f"- {clean_c}\n"
 
 md_content += f"""
@@ -664,3 +660,4 @@ Chuyên ngành Công nghệ Thông tin · Tốt nghiệp năm 2024
 
 (P / "CV_Phung_Xuan_Quy_Thanh.md").write_text(md_content, encoding="utf-8")
 print("Build completed successfully: HTML and Markdown generated.")
+

@@ -13,13 +13,7 @@ contact_items = [
     ("location", "Hanoi, Vietnam")
 ]
 
-summary = (
-    "Backend .NET Developer with nearly 2.5 years of hands-on experience at UniCloud (05/2024 – Present), "
-    "specializing in high-performance SQL Server database engineering and complex business logic processing. "
-    "Proven track record of developing and optimizing ~80 Stored Procedures, architecting high-throughput bulk import "
-    "workflows, and standardizing enterprise-wide multilingual notification frameworks. Proficient in building robust Web APIs "
-    "on the .NET platform following Clean Architecture and CQRS patterns."
-)
+summary = 'Backend .NET Developer with nearly 2.5 years of experience at UniCloud (05/2024 – Present), focused on C#/ASP.NET Core Web APIs, SQL Server and business logic. Hands-on experience with Repository Pattern, Dapper, Stored Procedures, data processing optimization and module-level API/database design. Contributed to Bizzone maintenance and feature development for Yamaha. Currently exploring Clean Architecture and CQRS through an early-stage personal backend scaffold.'
 
 skills = [
     {
@@ -28,7 +22,7 @@ skills = [
     },
     {
         "category": "BACKEND .NET",
-        "items": "C#, ASP.NET Core Web API, Clean Architecture, CQRS, Dapper, Entity Framework"
+        "items": "C#, ASP.NET Core Web API, OOP, Dapper, Entity Framework"
     },
     {
         "category": "ARCHITECTURE & INTEGRATION",
@@ -36,7 +30,7 @@ skills = [
     },
     {
         "category": "WORKFLOW & TOOLS",
-        "items": "Git, GitLab, CI/CD, Database Migration, Docker, Postman, ADR"
+        "items": "Git, GitLab, CI/CD, Database Migration, Docker, Postman"
     }
 ]
 
@@ -50,7 +44,7 @@ projects_page1 = [
         "tech": "C#, ASP.NET Core, SQL Server, Repository Pattern",
         "bullets": [
             "Architected a high-throughput vehicle bulk import engine: concurrently processed 1,000+ Excel records per batch, reducing processing time from 2 minutes to under 3 seconds and eliminating 95% of API-to-database round-trips via a two-tier database-level validation mechanism.",
-            "Engineered an enterprise-wide shared multilingual notification framework: dynamically resolved localized messages with a resilient fallback mechanism; standardized and adopted across 100% of newly developed Stored Procedures and Web APIs.",
+            "Contributed to module-level technical design: defined API inputs/outputs, business flows, data structures and Stored Procedures before implementation.",
             "Developed end-to-end business workflows and APIs for vehicle and resident card lifecycle management: issuance, card renewal, activation/suspension with audit logging; automated service fee computation and refunds; implemented role-based access control (RBAC)."
         ]
     },
@@ -78,6 +72,7 @@ projects_page2 = [
         "team_size": "12 members",
         "tech": "C#, ASP.NET Core, SQL Server, FlexCel, Keycloak",
         "bullets": [
+            'Contributed to Bizzone maintenance, bug fixes and additional features for Yamaha; developed a shared SQL function for multilingual message resolution.',
             "Engineered core Stored Procedures for 360-degree competency evaluation reporting: processed multi-criteria evaluation matrices, computing department and company-wide percentile rankings and averages for 5,000+ employees on the Web Portal.",
             "Automated enterprise report generation using FlexCel: mapped relational database records into dynamic templates, delivering highly accurate Excel and PDF survey evaluation exports.",
             "Synchronized employee lifecycle workflows and maintained Core HRM systems: implemented automated conversion pipelines from accepted candidates to full-time staff; handled maternity and training bond policies; maintained centralized Keycloak SSO authentication."
@@ -93,8 +88,8 @@ personal_projects = [
         "link": "https://github.com/Xuanthanh-dzz/AI-Powered-Cinema-Platform",
         "tech": "C#, .NET 10, Clean Architecture, CQRS, MediatR, FluentValidation, Docker",
         "bullets": [
-            "Architected the backend following Clean Architecture and CQRS, decoupling Command and Query handlers via MediatR and FluentValidation.",
-            "Standardized architectural decision-making via Architecture Decision Records (ADRs) to document system trade-offs and structural choices."
+            "Early-stage backend scaffold exploring Clean Architecture and CQRS with MediatR and FluentValidation; business features are not yet complete.",
+            "Experimenting with Architecture Decision Records (ADRs) to document design choices while learning and building the project."
         ]
     },
     {
@@ -594,7 +589,7 @@ md_content += f"""
 
 """
 for b in projects_page1[0]['bullets']:
-    clean_b = b.replace('<strong>', '**').replace('</strong>', '')
+    clean_b = b.replace('<strong>', '**').replace('</strong>', '**')
     md_content += f"- {clean_b}\n"
 
 md_content += f"""
@@ -605,7 +600,7 @@ md_content += f"""
 
 """
 for b in projects_page1[1]['bullets']:
-    clean_b = b.replace('<strong>', '**').replace('</strong>', '')
+    clean_b = b.replace('<strong>', '**').replace('</strong>', '**')
     md_content += f"- {clean_b}\n"
 
 md_content += f"""
@@ -616,7 +611,7 @@ md_content += f"""
 
 """
 for b in projects_page2[0]['bullets']:
-    clean_b = b.replace('<strong>', '**').replace('</strong>', '')
+    clean_b = b.replace('<strong>', '**').replace('</strong>', '**')
     md_content += f"- {clean_b}\n"
 
 md_content += f"""
@@ -651,7 +646,7 @@ md_content += f"""
 
 """
 for c in contributions:
-    clean_c = c.replace('<strong>', '**').replace('</strong>', '')
+    clean_c = c.replace('<strong>', '**').replace('</strong>', '**')
     md_content += f"- {clean_c}\n"
 
 md_content += f"""
@@ -665,3 +660,4 @@ Major in Information Technology · Graduated in 2024
 
 (P / "CV_Phung_Xuan_Quy_Thanh_EN.md").write_text(md_content, encoding="utf-8")
 print("English CV build completed successfully: HTML and Markdown generated.")
+
