@@ -24,12 +24,12 @@ Lập trình viên Backend .NET với 3 năm kinh nghiệm thực tế, bao gồ
 ## Kinh nghiệm làm việc
 
 **UniCloud — Enterprise Software & Cloud Solutions**  
-*Q4/2023 – Hiện tại | Hà Nội*  
+*Q4/2023 – 04/10/2026 | Hà Nội*  
 
-**Lộ trình:** Backend .NET Intern (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – Hiện tại)
+**Lộ trình:** Backend .NET Intern (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – 04/10/2026)
 
 ### Project: Resident — Hệ thống Quản lý Cư dân & Đô thị thông minh
-*05/2024 – Hiện tại | Hà Nội*  
+*05/2024 – 04/10/2026 | Hà Nội*  
 **Role:** Backend .NET & SQL Developer | **Team size:** 8 thành viên  
 **Tech:** C#, ASP.NET Core, SQL Server, Repository Pattern  
 
@@ -38,7 +38,7 @@ Lập trình viên Backend .NET với 3 năm kinh nghiệm thực tế, bao gồ
 - Phát triển chức năng thêm mới, import dữ liệu và tra cứu lịch sử thẻ xe trong hệ thống quản lý cư dân.
 
 ### Project: UniHRM — Hệ thống Quản trị Nhân sự & Tiền lương
-*05/2024 – Hiện tại | Hà Nội*  
+*05/2024 – 04/10/2026 | Hà Nội*  
 **Role:** Backend .NET & SQL Developer | **Team size:** 10 thành viên  
 **Tech:** C#, ASP.NET Core, SQL Server, Dapper, FlexCel  
 
@@ -47,7 +47,7 @@ Lập trình viên Backend .NET với 3 năm kinh nghiệm thực tế, bao gồ
 - Phát triển module báo cáo bảo hiểm và bảng lương: tích hợp và ánh xạ dữ liệu phức tạp từ SQL Server lên API; xử lý linh hoạt cấu hình gom nhóm, các trường thông tin động và chu kỳ lương doanh nghiệp.
 
 ### Project: Bizzone & Cổng thông tin nhân sự — Enterprise HRM Portal
-*05/2024 – Hiện tại | Hà Nội*  
+*05/2024 – 04/10/2026 | Hà Nội*  
 **Role:** Backend .NET & SQL Developer | **Team size:** 12 thành viên  
 **Tech:** C#, ASP.NET Core, SQL Server, FlexCel, Keycloak  
 
