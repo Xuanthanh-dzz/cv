@@ -510,15 +510,15 @@ page2_html = f"""
     <div class="section-title">Kinh nghiệm giai đoạn đầu</div>
     <div class="project-card">
       <div class="project-top-row">
-        <div class="project-title">UniCloud — Backend .NET Intern</div>
+        <div class="project-title">UniCloud — Backend .NET Intern → Thử việc</div>
         <div class="project-date-loc">Q4/2023 – 04/2024 | Hà Nội</div>
       </div>
       <div class="project-meta-box">
-        <span class="meta-item"><strong>Vai trò:</strong> Backend .NET Intern</span>
+        <span class="meta-item"><strong>Vai trò:</strong> Backend .NET Intern (3 tháng) → Backend .NET Thử việc</span>
         <div class="meta-item meta-tech"><strong>Công nghệ:</strong> C#, ASP.NET Core, SQL Server</div>
       </div>
       <ul class="bullets">
-        <li>Thực hiện các công việc phát triển và bảo trì backend trên cùng stack C#/ASP.NET Core và SQL Server được sử dụng xuyên suốt giai đoạn làm việc sau đó.</li>
+        <li>Hoàn thành 3 tháng thực tập Backend .NET, sau đó tiếp tục ở vị trí Backend .NET thử việc trước khi chuyển sang vai trò chính thức.</li>
         <li>Hỗ trợ triển khai API, thay đổi logic nghiệp vụ, debug và xử lý dữ liệu SQL, từ đó chuyển tiếp sang vai trò Backend .NET Developer chính thức.</li>
       </ul>
     </div>
@@ -600,7 +600,7 @@ md_content += f"""
 **UniCloud — Enterprise Software & Cloud Solutions**  
 *Q4/2023 – 04/10/2026 | Hà Nội*  
 
-**Lộ trình:** Backend .NET Intern (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – 04/10/2026)
+**Lộ trình:** Thực tập Backend .NET 3 tháng → Backend .NET thử việc (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – 04/10/2026)
 
 ### Project: {projects_page1[0]['name']}
 *{projects_page1[0]['date']} | {projects_page1[0]['location']}*  
