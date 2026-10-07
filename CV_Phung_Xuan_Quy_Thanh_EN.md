@@ -8,7 +8,7 @@
 
 ## Professional Summary
 
-Backend .NET Developer with nearly 2.5 years of experience at UniCloud (05/2024 – Present), focused on C#/ASP.NET Core Web APIs, SQL Server and business logic. Hands-on experience with Repository Pattern, Dapper, Stored Procedures, data processing optimization and module-level API/database design. Contributed to Bizzone maintenance and feature development for Yamaha. Currently exploring Clean Architecture and CQRS through an early-stage personal backend scaffold.
+Backend .NET Developer with 3 years of hands-on experience, including internship experience, focused on C#/ASP.NET Core Web APIs, SQL Server and business logic. Hands-on experience with Repository Pattern, Dapper, Stored Procedures, data processing optimization and module-level API/database design. Contributed to Bizzone maintenance and feature development for Yamaha. Strongest areas are SQL-heavy business workflows, API development and backend performance optimization.
 
 ---
 
@@ -24,7 +24,9 @@ Backend .NET Developer with nearly 2.5 years of experience at UniCloud (05/2024 
 ## Professional Experience
 
 **UniCloud — Enterprise Software & Cloud Solutions**  
-*05/2024 – Present | Hanoi*
+*Q4/2023 – Present | Hanoi*  
+
+**Career progression:** Backend .NET Intern (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – Present)
 
 ### Project: Resident — Smart Urban & Resident Management System
 *05/2024 – Present | Hanoi*  
