@@ -1,1 +1,70 @@
+name: Build and publish CV
 
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "build_cv.py"
+      - "build_cv_en.py"
+      - ".github/workflows/main.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-cv:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+
+      - name: Set up Chrome
+        id: chrome
+        uses: browser-actions/setup-chrome@v2
+        with:
+          chrome-version: stable
+          install-dependencies: true
+
+      - name: Build Vietnamese CV
+        run: |
+          python3 build_cv.py
+          "${{ steps.chrome.outputs.chrome-path }}"             --headless=new             --no-sandbox             --disable-gpu             --allow-file-access-from-files             --print-to-pdf="${{ github.workspace }}/CV_Phung_Xuan_Quy_Thanh.pdf"             "${{ github.workspace }}/CV_Phung_Xuan_Quy_Thanh.html"
+
+      - name: Build English CV
+        run: |
+          python3 build_cv_en.py
+          "${{ steps.chrome.outputs.chrome-path }}"             --headless=new             --no-sandbox             --disable-gpu             --allow-file-access-from-files             --print-to-pdf="${{ github.workspace }}/CV_Phung_Xuan_Quy_Thanh_EN.pdf"             "${{ github.workspace }}/CV_Phung_Xuan_Quy_Thanh_EN.html"
+
+      - name: Verify generated files
+        run: |
+          test -s CV_Phung_Xuan_Quy_Thanh.html
+          test -s CV_Phung_Xuan_Quy_Thanh.md
+          test -s CV_Phung_Xuan_Quy_Thanh.pdf
+          test -s CV_Phung_Xuan_Quy_Thanh_EN.html
+          test -s CV_Phung_Xuan_Quy_Thanh_EN.md
+          test -s CV_Phung_Xuan_Quy_Thanh_EN.pdf
+          file CV_Phung_Xuan_Quy_Thanh.pdf
+          file CV_Phung_Xuan_Quy_Thanh_EN.pdf
+
+      - name: Commit generated CV artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add             CV_Phung_Xuan_Quy_Thanh.html             CV_Phung_Xuan_Quy_Thanh.md             CV_Phung_Xuan_Quy_Thanh.pdf             CV_Phung_Xuan_Quy_Thanh_EN.html             CV_Phung_Xuan_Quy_Thanh_EN.md             CV_Phung_Xuan_Quy_Thanh_EN.pdf
+
+          if git diff --cached --quiet; then
+            echo "No generated CV changes to commit."
+            exit 0
+          fi
+
+          git commit -m "build: regenerate CV artifacts"
+          git push origin HEAD:main
