@@ -5,7 +5,7 @@ P = Path(__file__).parent
 
 # Candidate Information
 name = "PHÙNG XUÂN QUÝ THÀNH"
-role = "LẬP TRÌNH VIÊN BACKEND .NET · SQL SERVER"
+role = "FULL-STACK .NET DEVELOPER · BACKEND FOCUS"
 contact_items = [
     ("phone", "0975 748 203"),
     ("email", "phungxuanquythanh@gmail.com", "mailto:phungxuanquythanh@gmail.com"),
@@ -13,7 +13,7 @@ contact_items = [
     ("location", "Hà Nội")
 ]
 
-summary = 'Lập trình viên Backend .NET với 3 năm kinh nghiệm thực tế, bao gồm giai đoạn thực tập, tập trung vào C#/ASP.NET Core Web API, SQL Server và xử lý logic nghiệp vụ. Có kinh nghiệm với Repository Pattern, Dapper, Stored Procedure, tối ưu xử lý dữ liệu và thiết kế chi tiết API/database ở mức module. Từng tham gia bảo trì và phát triển chức năng Bizzone cho khách hàng Yamaha. Thế mạnh là các luồng nghiệp vụ sử dụng nhiều SQL, phát triển API và tối ưu hiệu năng backend.'
+summary = 'Full-Stack .NET Developer với 3 năm kinh nghiệm thực tế, bao gồm giai đoạn thực tập, có nền tảng mạnh về C#/ASP.NET Core Web API, SQL Server và xử lý logic nghiệp vụ. Có kinh nghiệm phát triển backend và triển khai các phần frontend cơ bản để tích hợp API và hoàn thiện luồng nghiệp vụ. Thế mạnh là các hệ thống doanh nghiệp sử dụng nhiều SQL, phát triển API, tối ưu hiệu năng và phối hợp end-to-end giữa backend và frontend.'
 
 skills = [
     {
@@ -23,6 +23,10 @@ skills = [
     {
         "category": "BACKEND .NET",
         "items": "C#, ASP.NET Core Web API, OOP, Dapper, Entity Framework"
+    },
+    {
+        "category": "FRONTEND",
+        "items": "Frontend fundamentals, UI implementation cơ bản, REST API integration"
     },
     {
         "category": "KIẾN TRÚC & TÍCH HỢP",
@@ -76,30 +80,6 @@ projects_page2 = [
             "Xây dựng hệ thống Stored Procedure báo cáo đánh giá năng lực đa chiều: xử lý ma trận tiêu chí khảo sát, tính điểm trung bình và phân vị xếp hạng theo bộ phận và toàn công ty cho hơn 5.000 nhân sự trên Web Portal.",
             "Tự động hóa kết xuất báo cáo doanh nghiệp bằng FlexCel: ánh xạ dữ liệu từ cơ sở dữ liệu vào biểu mẫu động, tự động hóa xuất báo cáo khảo sát định dạng Excel và PDF với độ chính xác cao.",
             "Đồng bộ vòng đời nhân sự và bảo trì hệ thống Core HRM: xây dựng luồng chuyển đổi tự động từ ứng viên trúng tuyển sang nhân viên chính thức; xử lý nghiệp vụ thai sản, cam kết đào tạo và bảo trì tích hợp xác thực tập trung Keycloak."
-        ]
-    }
-]
-
-personal_projects = [
-    {
-        "name": "AI-Powered Cinema Platform",
-        "role": "Personal Project (Owner)",
-        "team_size": "1 thành viên",
-        "link": "https://github.com/Xuanthanh-dzz/AI-Powered-Cinema-Platform",
-        "tech": "C#, .NET 10, Clean Architecture, CQRS, MediatR, FluentValidation, Docker",
-        "bullets": [
-            "Dự án đang ở giai đoạn dựng sườn backend; nghiên cứu Clean Architecture và CQRS với MediatR, FluentValidation, chưa hoàn thiện nghiệp vụ.",
-            "Thử nghiệm ghi nhận quyết định thiết kế bằng Architecture Decision Records (ADR) trong quá trình học và xây dựng dự án."
-        ]
-    },
-    {
-        "name": "Full-Stack Engineering Handbook",
-        "role": "Technical Writer & Developer",
-        "team_size": "1 thành viên",
-        "link": "https://github.com/Xuanthanh-dzz/full-stack",
-        "tech": "Computer Science, C / C++, C# (.NET 10), Markdown, GitHub Pages",
-        "bullets": [
-            "Hệ thống hóa kiến thức nền tảng khoa học máy tính và tối ưu tài nguyên: quản lý bộ nhớ C/C++, nguyên lý hướng đối tượng và kỹ thuật chuyên sâu trên nền tảng .NET."
         ]
     }
 ]
@@ -525,12 +505,6 @@ page2_html = f"""
   </div>
 
   <div class="section">
-    <div class="section-title">Dự án cá nhân & Open Source (GitHub)</div>
-    {render_personal(personal_projects[0])}
-    {render_personal(personal_projects[1])}
-  </div>
-
-  <div class="section">
     <div class="section-title">Quy trình & Đóng góp kỹ thuật khác</div>
     {contributions_html}
   </div>
@@ -632,31 +606,6 @@ md_content += f"""
 """
 for b in projects_page2[0]['bullets']:
     clean_b = b.replace('<strong>', '**').replace('</strong>', '**')
-    md_content += f"- {clean_b}\n"
-
-md_content += f"""
----
-
-## Dự án cá nhân & Open Source (GitHub)
-
-### Project: {personal_projects[0]['name']}
-*[{personal_projects[0]['link']}]({personal_projects[0]['link']})*  
-**Role:** {personal_projects[0]['role']} | **Team size:** {personal_projects[0]['team_size']}  
-**Tech:** {personal_projects[0]['tech']}  
-
-"""
-for b in personal_projects[0]['bullets']:
-    md_content += f"- {b}\n"
-
-md_content += f"""
-### Project: {personal_projects[1]['name']}
-*[{personal_projects[1]['link']}]({personal_projects[1]['link']})*  
-**Role:** {personal_projects[1]['role']} | **Team size:** {personal_projects[1]['team_size']}  
-**Tech:** {personal_projects[1]['tech']}  
-
-"""
-for b in personal_projects[1]['bullets']:
-    clean_b = b.replace('&lt;', '<').replace('&gt;', '>')
     md_content += f"- {clean_b}\n"
 
 md_content += f"""
