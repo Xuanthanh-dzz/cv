@@ -26,7 +26,7 @@ Lập trình viên Backend .NET với 3 năm kinh nghiệm thực tế, bao gồ
 **UniCloud — Enterprise Software & Cloud Solutions**  
 *Q4/2023 – 04/10/2026 | Hà Nội*  
 
-**Lộ trình:** Backend .NET Intern (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – 04/10/2026)
+**Lộ trình:** Thực tập Backend .NET 3 tháng → Backend .NET thử việc (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – 04/10/2026)
 
 ### Project: Resident — Hệ thống Quản lý Cư dân & Đô thị thông minh
 *05/2024 – 04/10/2026 | Hà Nội*  
