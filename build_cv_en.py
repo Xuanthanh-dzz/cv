@@ -5,7 +5,7 @@ P = Path(__file__).parent
 
 # Candidate Information
 name = "PHUNG XUAN QUY THANH"
-role = "BACKEND .NET · SQL SERVER DEVELOPER"
+role = "FULL-STACK .NET DEVELOPER · BACKEND FOCUS"
 contact_items = [
     ("phone", "0975 748 203"),
     ("email", "phungxuanquythanh@gmail.com", "mailto:phungxuanquythanh@gmail.com"),
@@ -13,7 +13,7 @@ contact_items = [
     ("location", "Hanoi, Vietnam")
 ]
 
-summary = 'Backend .NET Developer with 3 years of hands-on experience, including internship experience, focused on C#/ASP.NET Core Web APIs, SQL Server and business logic. Hands-on experience with Repository Pattern, Dapper, Stored Procedures, data processing optimization and module-level API/database design. Contributed to Bizzone maintenance and feature development for Yamaha. Strongest areas are SQL-heavy business workflows, API development and backend performance optimization.'
+summary = 'Full-Stack .NET Developer with 3 years of hands-on experience, including internship experience, with strong expertise in C#/ASP.NET Core Web APIs, SQL Server and business logic. Experienced in backend development plus basic frontend implementation for API integration and end-to-end business workflows. Strongest areas are SQL-heavy enterprise systems, API development, performance optimization and end-to-end coordination between backend and frontend.'
 
 skills = [
     {
@@ -23,6 +23,10 @@ skills = [
     {
         "category": "BACKEND .NET",
         "items": "C#, ASP.NET Core Web API, OOP, Dapper, Entity Framework"
+    },
+    {
+        "category": "FRONTEND",
+        "items": "Frontend fundamentals, basic UI implementation, REST API integration"
     },
     {
         "category": "ARCHITECTURE & INTEGRATION",
@@ -76,30 +80,6 @@ projects_page2 = [
             "Engineered core Stored Procedures for 360-degree competency evaluation reporting: processed multi-criteria evaluation matrices, computing department and company-wide percentile rankings and averages for 5,000+ employees on the Web Portal.",
             "Automated enterprise report generation using FlexCel: mapped relational database records into dynamic templates, delivering highly accurate Excel and PDF survey evaluation exports.",
             "Synchronized employee lifecycle workflows and maintained Core HRM systems: implemented automated conversion pipelines from accepted candidates to full-time staff; handled maternity and training bond policies; maintained centralized Keycloak SSO authentication."
-        ]
-    }
-]
-
-personal_projects = [
-    {
-        "name": "AI-Powered Cinema Platform",
-        "role": "Personal Project (Owner)",
-        "team_size": "1 member",
-        "link": "https://github.com/Xuanthanh-dzz/AI-Powered-Cinema-Platform",
-        "tech": "C#, .NET 10, Clean Architecture, CQRS, MediatR, FluentValidation, Docker",
-        "bullets": [
-            "Early-stage backend scaffold exploring Clean Architecture and CQRS with MediatR and FluentValidation; business features are not yet complete.",
-            "Experimenting with Architecture Decision Records (ADRs) to document design choices while learning and building the project."
-        ]
-    },
-    {
-        "name": "Full-Stack Engineering Handbook",
-        "role": "Technical Writer & Developer",
-        "team_size": "1 member",
-        "link": "https://github.com/Xuanthanh-dzz/full-stack",
-        "tech": "Computer Science, C / C++, C# (.NET 10), Markdown, GitHub Pages",
-        "bullets": [
-            "Synthesized core computer science fundamentals and resource optimization: C/C++ memory management, object-oriented principles, and advanced techniques on the .NET platform."
         ]
     }
 ]
@@ -525,12 +505,6 @@ page2_html = f"""
   </div>
 
   <div class="section">
-    <div class="section-title">Personal & Open-Source Projects (GitHub)</div>
-    {render_personal(personal_projects[0])}
-    {render_personal(personal_projects[1])}
-  </div>
-
-  <div class="section">
     <div class="section-title">Technical Contributions & Practices</div>
     {contributions_html}
   </div>
@@ -632,31 +606,6 @@ md_content += f"""
 """
 for b in projects_page2[0]['bullets']:
     clean_b = b.replace('<strong>', '**').replace('</strong>', '**')
-    md_content += f"- {clean_b}\n"
-
-md_content += f"""
----
-
-## Personal & Open-Source Projects (GitHub)
-
-### Project: {personal_projects[0]['name']}
-*[{personal_projects[0]['link']}]({personal_projects[0]['link']})*  
-**Role:** {personal_projects[0]['role']} | **Team size:** {personal_projects[0]['team_size']}  
-**Tech:** {personal_projects[0]['tech']}  
-
-"""
-for b in personal_projects[0]['bullets']:
-    md_content += f"- {b}\n"
-
-md_content += f"""
-### Project: {personal_projects[1]['name']}
-*[{personal_projects[1]['link']}]({personal_projects[1]['link']})*  
-**Role:** {personal_projects[1]['role']} | **Team size:** {personal_projects[1]['team_size']}  
-**Tech:** {personal_projects[1]['tech']}  
-
-"""
-for b in personal_projects[1]['bullets']:
-    clean_b = b.replace('&lt;', '<').replace('&gt;', '>')
     md_content += f"- {clean_b}\n"
 
 md_content += f"""
