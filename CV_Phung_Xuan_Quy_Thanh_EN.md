@@ -24,12 +24,12 @@ Backend .NET Developer with 3 years of hands-on experience, including internship
 ## Professional Experience
 
 **UniCloud — Enterprise Software & Cloud Solutions**  
-*Q4/2023 – Present | Hanoi*  
+*Q4/2023 – 04/10/2026 | Hanoi*  
 
-**Career progression:** Backend .NET Intern (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – Present)
+**Career progression:** Backend .NET Intern (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – 04/10/2026)
 
 ### Project: Resident — Smart Urban & Resident Management System
-*05/2024 – Present | Hanoi*  
+*05/2024 – 04/10/2026 | Hanoi*  
 **Role:** Backend .NET & SQL Developer | **Team size:** 8 members  
 **Tech:** C#, ASP.NET Core, SQL Server, Repository Pattern  
 
@@ -38,7 +38,7 @@ Backend .NET Developer with 3 years of hands-on experience, including internship
 - Developed vehicle card creation, data import and history lookup features in the resident management system.
 
 ### Project: UniHRM — Human Resource & Payroll Management System
-*05/2024 – Present | Hanoi*  
+*05/2024 – 04/10/2026 | Hanoi*  
 **Role:** Backend .NET & SQL Developer | **Team size:** 10 members  
 **Tech:** C#, ASP.NET Core, SQL Server, Dapper, FlexCel  
 
@@ -47,7 +47,7 @@ Backend .NET Developer with 3 years of hands-on experience, including internship
 - Developed insurance and payroll reporting modules: orchestrated and mapped complex relational data to APIs; flexibly handled dynamic fields, custom aggregation rules, and enterprise payroll cycles.
 
 ### Project: Bizzone & HR Portal — Enterprise HRM Portal
-*05/2024 – Present | Hanoi*  
+*05/2024 – 04/10/2026 | Hanoi*  
 **Role:** Backend .NET & SQL Developer | **Team size:** 12 members  
 **Tech:** C#, ASP.NET Core, SQL Server, FlexCel, Keycloak  
 
