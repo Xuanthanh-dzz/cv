@@ -1,6 +1,6 @@
 # PHUNG XUAN QUY THANH
 
-**BACKEND .NET · SQL SERVER DEVELOPER**
+**FULL-STACK .NET DEVELOPER · BACKEND FOCUS**
 
 0975 748 203 · phungxuanquythanh@gmail.com · [github.com/Xuanthanh-dzz](https://github.com/Xuanthanh-dzz) · Hanoi, Vietnam
 
@@ -8,7 +8,7 @@
 
 ## Professional Summary
 
-Backend .NET Developer with 3 years of hands-on experience, including internship experience, focused on C#/ASP.NET Core Web APIs, SQL Server and business logic. Hands-on experience with Repository Pattern, Dapper, Stored Procedures, data processing optimization and module-level API/database design. Contributed to Bizzone maintenance and feature development for Yamaha. Strongest areas are SQL-heavy business workflows, API development and backend performance optimization.
+Full-Stack .NET Developer with 3 years of hands-on experience, including internship experience, with strong expertise in C#/ASP.NET Core Web APIs, SQL Server and business logic. Experienced in backend development plus basic frontend implementation for API integration and end-to-end business workflows. Strongest areas are SQL-heavy enterprise systems, API development, performance optimization and end-to-end coordination between backend and frontend.
 
 ---
 
@@ -16,6 +16,7 @@ Backend .NET Developer with 3 years of hands-on experience, including internship
 
 - **DATABASE & SQL:** SQL Server, T-SQL, Database Design, Query Optimization, Stored Procedures
 - **BACKEND .NET:** C#, ASP.NET Core Web API, OOP, Dapper, Entity Framework
+- **FRONTEND:** Frontend fundamentals, basic UI implementation, REST API integration
 - **ARCHITECTURE & INTEGRATION:** RESTful API, Repository Pattern, Shared Libraries, FlexCel, Keycloak
 - **WORKFLOW & TOOLS:** Git, GitLab, CI/CD, Database Migration, Docker, Postman
 
@@ -55,25 +56,6 @@ Backend .NET Developer with 3 years of hands-on experience, including internship
 - Engineered core Stored Procedures for 360-degree competency evaluation reporting: processed multi-criteria evaluation matrices, computing department and company-wide percentile rankings and averages for 5,000+ employees on the Web Portal.
 - Automated enterprise report generation using FlexCel: mapped relational database records into dynamic templates, delivering highly accurate Excel and PDF survey evaluation exports.
 - Synchronized employee lifecycle workflows and maintained Core HRM systems: implemented automated conversion pipelines from accepted candidates to full-time staff; handled maternity and training bond policies; maintained centralized Keycloak SSO authentication.
-
----
-
-## Personal & Open-Source Projects (GitHub)
-
-### Project: AI-Powered Cinema Platform
-*[https://github.com/Xuanthanh-dzz/AI-Powered-Cinema-Platform](https://github.com/Xuanthanh-dzz/AI-Powered-Cinema-Platform)*  
-**Role:** Personal Project (Owner) | **Team size:** 1 member  
-**Tech:** C#, .NET 10, Clean Architecture, CQRS, MediatR, FluentValidation, Docker  
-
-- Early-stage backend scaffold exploring Clean Architecture and CQRS with MediatR and FluentValidation; business features are not yet complete.
-- Experimenting with Architecture Decision Records (ADRs) to document design choices while learning and building the project.
-
-### Project: Full-Stack Engineering Handbook
-*[https://github.com/Xuanthanh-dzz/full-stack](https://github.com/Xuanthanh-dzz/full-stack)*  
-**Role:** Technical Writer & Developer | **Team size:** 1 member  
-**Tech:** Computer Science, C / C++, C# (.NET 10), Markdown, GitHub Pages  
-
-- Synthesized core computer science fundamentals and resource optimization: C/C++ memory management, object-oriented principles, and advanced techniques on the .NET platform.
 
 ---
 
