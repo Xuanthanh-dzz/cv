@@ -13,7 +13,7 @@ contact_items = [
     ("location", "Hanoi, Vietnam")
 ]
 
-summary = 'Backend .NET Developer with nearly 2.5 years of experience at UniCloud (05/2024 – Present), focused on C#/ASP.NET Core Web APIs, SQL Server and business logic. Hands-on experience with Repository Pattern, Dapper, Stored Procedures, data processing optimization and module-level API/database design. Contributed to Bizzone maintenance and feature development for Yamaha. Currently exploring Clean Architecture and CQRS through an early-stage personal backend scaffold.'
+summary = 'Backend .NET Developer with 3 years of hands-on experience, including internship experience, focused on C#/ASP.NET Core Web APIs, SQL Server and business logic. Hands-on experience with Repository Pattern, Dapper, Stored Procedures, data processing optimization and module-level API/database design. Contributed to Bizzone maintenance and feature development for Yamaha. Strongest areas are SQL-heavy business workflows, API development and backend performance optimization.'
 
 skills = [
     {
@@ -507,6 +507,24 @@ page2_html = f"""
   </div>
 
   <div class="section">
+    <div class="section-title">Earlier Experience</div>
+    <div class="project-card">
+      <div class="project-top-row">
+        <div class="project-title">UniCloud — Backend .NET Intern</div>
+        <div class="project-date-loc">Q4/2023 – 04/2024 | Hanoi</div>
+      </div>
+      <div class="project-meta-box">
+        <span class="meta-item"><strong>Role:</strong> Backend .NET Intern</span>
+        <div class="meta-item meta-tech"><strong>Tech:</strong> C#, ASP.NET Core, SQL Server</div>
+      </div>
+      <ul class="bullets">
+        <li>Worked on backend development and maintenance tasks in the same C#/ASP.NET Core and SQL Server stack later used in full-time projects.</li>
+        <li>Assisted with API implementation, business-logic changes, debugging and SQL-based data processing while transitioning into the Backend .NET Developer role.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
     <div class="section-title">Personal & Open-Source Projects (GitHub)</div>
     {render_personal(personal_projects[0])}
     {render_personal(personal_projects[1])}
@@ -580,7 +598,9 @@ md_content += f"""
 ## Professional Experience
 
 **UniCloud — Enterprise Software & Cloud Solutions**  
-*05/2024 – Present | Hanoi*
+*Q4/2023 – Present | Hanoi*  
+
+**Career progression:** Backend .NET Intern (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – Present)
 
 ### Project: {projects_page1[0]['name']}
 *{projects_page1[0]['date']} | {projects_page1[0]['location']}*  
