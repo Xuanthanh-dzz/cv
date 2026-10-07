@@ -26,7 +26,7 @@ Backend .NET Developer with 3 years of hands-on experience, including internship
 **UniCloud — Enterprise Software & Cloud Solutions**  
 *Q4/2023 – 04/10/2026 | Hanoi*  
 
-**Career progression:** Backend .NET Intern (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – 04/10/2026)
+**Career progression:** 3-month Backend .NET internship → Probationary Backend .NET Developer (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – 04/10/2026)
 
 ### Project: Resident — Smart Urban & Resident Management System
 *05/2024 – 04/10/2026 | Hanoi*  
