@@ -8,7 +8,7 @@
 
 ## Tóm tắt chuyên môn
 
-Lập trình viên Backend .NET với gần 2,5 năm kinh nghiệm tại UniCloud (05/2024 – Hiện tại), tập trung vào C#/ASP.NET Core Web API, SQL Server và xử lý logic nghiệp vụ. Có kinh nghiệm với Repository Pattern, Dapper, Stored Procedure, tối ưu xử lý dữ liệu và thiết kế chi tiết API/database ở mức module. Từng tham gia bảo trì và phát triển chức năng Bizzone cho khách hàng Yamaha. Đang nghiên cứu Clean Architecture và CQRS qua dự án cá nhân mới dựng sườn.
+Lập trình viên Backend .NET với 3 năm kinh nghiệm thực tế, bao gồm giai đoạn thực tập, tập trung vào C#/ASP.NET Core Web API, SQL Server và xử lý logic nghiệp vụ. Có kinh nghiệm với Repository Pattern, Dapper, Stored Procedure, tối ưu xử lý dữ liệu và thiết kế chi tiết API/database ở mức module. Từng tham gia bảo trì và phát triển chức năng Bizzone cho khách hàng Yamaha. Thế mạnh là các luồng nghiệp vụ sử dụng nhiều SQL, phát triển API và tối ưu hiệu năng backend.
 
 ---
 
@@ -24,7 +24,9 @@ Lập trình viên Backend .NET với gần 2,5 năm kinh nghiệm tại UniClou
 ## Kinh nghiệm làm việc
 
 **UniCloud — Enterprise Software & Cloud Solutions**  
-*05/2024 – Hiện tại | Hà Nội*
+*Q4/2023 – Hiện tại | Hà Nội*  
+
+**Lộ trình:** Backend .NET Intern (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – Hiện tại)
 
 ### Project: Resident — Hệ thống Quản lý Cư dân & Đô thị thông minh
 *05/2024 – Hiện tại | Hà Nội*  
