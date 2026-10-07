@@ -37,7 +37,7 @@ skills = [
 projects_page1 = [
     {
         "name": "Resident — Hệ thống Quản lý Cư dân & Đô thị thông minh",
-        "date": "05/2024 – Hiện tại",
+        "date": "05/2024 – 04/10/2026",
         "location": "Hà Nội",
         "role": "Backend .NET & SQL Developer",
         "team_size": "8 thành viên",
@@ -50,7 +50,7 @@ projects_page1 = [
     },
     {
         "name": "UniHRM — Hệ thống Quản trị Nhân sự & Tiền lương",
-        "date": "05/2024 – Hiện tại",
+        "date": "05/2024 – 04/10/2026",
         "location": "Hà Nội",
         "role": "Backend .NET & SQL Developer",
         "team_size": "10 thành viên",
@@ -66,7 +66,7 @@ projects_page1 = [
 projects_page2 = [
     {
         "name": "Bizzone & Cổng thông tin nhân sự — Enterprise HRM Portal",
-        "date": "05/2024 – Hiện tại",
+        "date": "05/2024 – 04/10/2026",
         "location": "Hà Nội",
         "role": "Backend .NET & SQL Developer",
         "team_size": "12 thành viên",
@@ -443,7 +443,7 @@ contact_html = (
     '<span class="sep">•</span>'
     '<div class="contact-item"><span>🔗</span> <a href="https://github.com/Xuanthanh-dzz" target="_blank">github.com/Xuanthanh-dzz</a></div>'
     '<span class="sep">•</span>'
-    '<div class="contact-item"><span>📍</span> <span>Hà Nội</span></div>'
+    '<div class="contact-item"><span>📍</span> <span>Hà Nội</span></div><span class="sep">•</span><div class="contact-item"><span>🚀</span> <span>Sẵn sàng nhận việc: 11/10/2026</span></div>'
 )
 
 skills_html = '<div class="skills-grid">' + "".join(
@@ -476,7 +476,7 @@ page1_html = f"""
         <span class="company-name">UniCloud</span>
         <span class="company-title">— Enterprise Software & Cloud Solutions</span>
       </div>
-      <span class="company-date">05/2024 – Hiện tại | Hà Nội</span>
+      <span class="company-date">05/2024 – 04/10/2026 | Hà Nội</span>
     </div>
     {render_project(projects_page1[0])}
     {render_project(projects_page1[1])}
@@ -598,9 +598,9 @@ md_content += f"""
 ## Kinh nghiệm làm việc
 
 **UniCloud — Enterprise Software & Cloud Solutions**  
-*Q4/2023 – Hiện tại | Hà Nội*  
+*Q4/2023 – 04/10/2026 | Hà Nội*  
 
-**Lộ trình:** Backend .NET Intern (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – Hiện tại)
+**Lộ trình:** Backend .NET Intern (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – 04/10/2026)
 
 ### Project: {projects_page1[0]['name']}
 *{projects_page1[0]['date']} | {projects_page1[0]['location']}*  
