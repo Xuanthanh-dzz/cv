@@ -37,7 +37,7 @@ skills = [
 projects_page1 = [
     {
         "name": "Resident — Smart Urban & Resident Management System",
-        "date": "05/2024 – Present",
+        "date": "05/2024 – 04/10/2026",
         "location": "Hanoi",
         "role": "Backend .NET & SQL Developer",
         "team_size": "8 members",
@@ -50,7 +50,7 @@ projects_page1 = [
     },
     {
         "name": "UniHRM — Human Resource & Payroll Management System",
-        "date": "05/2024 – Present",
+        "date": "05/2024 – 04/10/2026",
         "location": "Hanoi",
         "role": "Backend .NET & SQL Developer",
         "team_size": "10 members",
@@ -66,7 +66,7 @@ projects_page1 = [
 projects_page2 = [
     {
         "name": "Bizzone & HR Portal — Enterprise HRM Portal",
-        "date": "05/2024 – Present",
+        "date": "05/2024 – 04/10/2026",
         "location": "Hanoi",
         "role": "Backend .NET & SQL Developer",
         "team_size": "12 members",
@@ -443,7 +443,7 @@ contact_html = (
     '<span class="sep">•</span>'
     '<div class="contact-item"><span>🔗</span> <a href="https://github.com/Xuanthanh-dzz" target="_blank">github.com/Xuanthanh-dzz</a></div>'
     '<span class="sep">•</span>'
-    '<div class="contact-item"><span>📍</span> <span>Hanoi, Vietnam</span></div>'
+    '<div class="contact-item"><span>📍</span> <span>Hanoi, Vietnam</span></div><span class="sep">•</span><div class="contact-item"><span>🚀</span> <span>Available to start: 11/10/2026</span></div>'
 )
 
 skills_html = '<div class="skills-grid">' + "".join(
@@ -476,7 +476,7 @@ page1_html = f"""
         <span class="company-name">UniCloud</span>
         <span class="company-title">— Enterprise Software & Cloud Solutions</span>
       </div>
-      <span class="company-date">05/2024 – Present | Hanoi</span>
+      <span class="company-date">05/2024 – 04/10/2026 | Hanoi</span>
     </div>
     {render_project(projects_page1[0])}
     {render_project(projects_page1[1])}
@@ -598,9 +598,9 @@ md_content += f"""
 ## Professional Experience
 
 **UniCloud — Enterprise Software & Cloud Solutions**  
-*Q4/2023 – Present | Hanoi*  
+*Q4/2023 – 04/10/2026 | Hanoi*  
 
-**Career progression:** Backend .NET Intern (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – Present)
+**Career progression:** Backend .NET Intern (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – 04/10/2026)
 
 ### Project: {projects_page1[0]['name']}
 *{projects_page1[0]['date']} | {projects_page1[0]['location']}*  
