@@ -13,7 +13,7 @@ contact_items = [
     ("location", "Hà Nội")
 ]
 
-summary = 'Lập trình viên Backend .NET với gần 2,5 năm kinh nghiệm tại UniCloud (05/2024 – Hiện tại), tập trung vào C#/ASP.NET Core Web API, SQL Server và xử lý logic nghiệp vụ. Có kinh nghiệm với Repository Pattern, Dapper, Stored Procedure, tối ưu xử lý dữ liệu và thiết kế chi tiết API/database ở mức module. Từng tham gia bảo trì và phát triển chức năng Bizzone cho khách hàng Yamaha. Đang nghiên cứu Clean Architecture và CQRS qua dự án cá nhân mới dựng sườn.'
+summary = 'Lập trình viên Backend .NET với 3 năm kinh nghiệm thực tế, bao gồm giai đoạn thực tập, tập trung vào C#/ASP.NET Core Web API, SQL Server và xử lý logic nghiệp vụ. Có kinh nghiệm với Repository Pattern, Dapper, Stored Procedure, tối ưu xử lý dữ liệu và thiết kế chi tiết API/database ở mức module. Từng tham gia bảo trì và phát triển chức năng Bizzone cho khách hàng Yamaha. Thế mạnh là các luồng nghiệp vụ sử dụng nhiều SQL, phát triển API và tối ưu hiệu năng backend.'
 
 skills = [
     {
@@ -507,6 +507,24 @@ page2_html = f"""
   </div>
 
   <div class="section">
+    <div class="section-title">Kinh nghiệm giai đoạn đầu</div>
+    <div class="project-card">
+      <div class="project-top-row">
+        <div class="project-title">UniCloud — Backend .NET Intern</div>
+        <div class="project-date-loc">Q4/2023 – 04/2024 | Hà Nội</div>
+      </div>
+      <div class="project-meta-box">
+        <span class="meta-item"><strong>Vai trò:</strong> Backend .NET Intern</span>
+        <div class="meta-item meta-tech"><strong>Công nghệ:</strong> C#, ASP.NET Core, SQL Server</div>
+      </div>
+      <ul class="bullets">
+        <li>Thực hiện các công việc phát triển và bảo trì backend trên cùng stack C#/ASP.NET Core và SQL Server được sử dụng xuyên suốt giai đoạn làm việc sau đó.</li>
+        <li>Hỗ trợ triển khai API, thay đổi logic nghiệp vụ, debug và xử lý dữ liệu SQL, từ đó chuyển tiếp sang vai trò Backend .NET Developer chính thức.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
     <div class="section-title">Dự án cá nhân & Open Source (GitHub)</div>
     {render_personal(personal_projects[0])}
     {render_personal(personal_projects[1])}
@@ -580,7 +598,9 @@ md_content += f"""
 ## Kinh nghiệm làm việc
 
 **UniCloud — Enterprise Software & Cloud Solutions**  
-*05/2024 – Hiện tại | Hà Nội*
+*Q4/2023 – Hiện tại | Hà Nội*  
+
+**Lộ trình:** Backend .NET Intern (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – Hiện tại)
 
 ### Project: {projects_page1[0]['name']}
 *{projects_page1[0]['date']} | {projects_page1[0]['location']}*  
