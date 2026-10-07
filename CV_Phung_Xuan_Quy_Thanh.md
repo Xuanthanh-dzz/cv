@@ -1,6 +1,6 @@
 # PHÙNG XUÂN QUÝ THÀNH
 
-**LẬP TRÌNH VIÊN BACKEND .NET · SQL SERVER**
+**FULL-STACK .NET DEVELOPER · BACKEND FOCUS**
 
 0975 748 203 · phungxuanquythanh@gmail.com · [github.com/Xuanthanh-dzz](https://github.com/Xuanthanh-dzz) · Hà Nội
 
@@ -8,7 +8,7 @@
 
 ## Tóm tắt chuyên môn
 
-Lập trình viên Backend .NET với 3 năm kinh nghiệm thực tế, bao gồm giai đoạn thực tập, tập trung vào C#/ASP.NET Core Web API, SQL Server và xử lý logic nghiệp vụ. Có kinh nghiệm với Repository Pattern, Dapper, Stored Procedure, tối ưu xử lý dữ liệu và thiết kế chi tiết API/database ở mức module. Từng tham gia bảo trì và phát triển chức năng Bizzone cho khách hàng Yamaha. Thế mạnh là các luồng nghiệp vụ sử dụng nhiều SQL, phát triển API và tối ưu hiệu năng backend.
+Full-Stack .NET Developer với 3 năm kinh nghiệm thực tế, bao gồm giai đoạn thực tập, có nền tảng mạnh về C#/ASP.NET Core Web API, SQL Server và xử lý logic nghiệp vụ. Có kinh nghiệm phát triển backend và triển khai các phần frontend cơ bản để tích hợp API và hoàn thiện luồng nghiệp vụ. Thế mạnh là các hệ thống doanh nghiệp sử dụng nhiều SQL, phát triển API, tối ưu hiệu năng và phối hợp end-to-end giữa backend và frontend.
 
 ---
 
@@ -16,6 +16,7 @@ Lập trình viên Backend .NET với 3 năm kinh nghiệm thực tế, bao gồ
 
 - **CƠ SỞ DỮ LIỆU:** SQL Server, T-SQL, Thiết kế CSDL, Tối ưu hóa truy vấn, Stored Procedure
 - **BACKEND .NET:** C#, ASP.NET Core Web API, OOP, Dapper, Entity Framework
+- **FRONTEND:** Frontend fundamentals, UI implementation cơ bản, REST API integration
 - **KIẾN TRÚC & TÍCH HỢP:** RESTful API, Repository Pattern, Shared Libraries, FlexCel, Keycloak
 - **QUY TRÌNH & CÔNG CỤ:** Git, GitLab, CI/CD, Database Migration, Docker, Postman
 
@@ -55,25 +56,6 @@ Lập trình viên Backend .NET với 3 năm kinh nghiệm thực tế, bao gồ
 - Xây dựng hệ thống Stored Procedure báo cáo đánh giá năng lực đa chiều: xử lý ma trận tiêu chí khảo sát, tính điểm trung bình và phân vị xếp hạng theo bộ phận và toàn công ty cho hơn 5.000 nhân sự trên Web Portal.
 - Tự động hóa kết xuất báo cáo doanh nghiệp bằng FlexCel: ánh xạ dữ liệu từ cơ sở dữ liệu vào biểu mẫu động, tự động hóa xuất báo cáo khảo sát định dạng Excel và PDF với độ chính xác cao.
 - Đồng bộ vòng đời nhân sự và bảo trì hệ thống Core HRM: xây dựng luồng chuyển đổi tự động từ ứng viên trúng tuyển sang nhân viên chính thức; xử lý nghiệp vụ thai sản, cam kết đào tạo và bảo trì tích hợp xác thực tập trung Keycloak.
-
----
-
-## Dự án cá nhân & Open Source (GitHub)
-
-### Project: AI-Powered Cinema Platform
-*[https://github.com/Xuanthanh-dzz/AI-Powered-Cinema-Platform](https://github.com/Xuanthanh-dzz/AI-Powered-Cinema-Platform)*  
-**Role:** Personal Project (Owner) | **Team size:** 1 thành viên  
-**Tech:** C#, .NET 10, Clean Architecture, CQRS, MediatR, FluentValidation, Docker  
-
-- Dự án đang ở giai đoạn dựng sườn backend; nghiên cứu Clean Architecture và CQRS với MediatR, FluentValidation, chưa hoàn thiện nghiệp vụ.
-- Thử nghiệm ghi nhận quyết định thiết kế bằng Architecture Decision Records (ADR) trong quá trình học và xây dựng dự án.
-
-### Project: Full-Stack Engineering Handbook
-*[https://github.com/Xuanthanh-dzz/full-stack](https://github.com/Xuanthanh-dzz/full-stack)*  
-**Role:** Technical Writer & Developer | **Team size:** 1 thành viên  
-**Tech:** Computer Science, C / C++, C# (.NET 10), Markdown, GitHub Pages  
-
-- Hệ thống hóa kiến thức nền tảng khoa học máy tính và tối ưu tài nguyên: quản lý bộ nhớ C/C++, nguyên lý hướng đối tượng và kỹ thuật chuyên sâu trên nền tảng .NET.
 
 ---
 
