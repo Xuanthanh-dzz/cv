@@ -5,7 +5,7 @@ P = Path(__file__).parent
 
 # Candidate Information
 name = "PHÙNG XUÂN QUÝ THÀNH"
-role = "FULL-STACK .NET DEVELOPER · BACKEND FOCUS"
+role = "LẬP TRÌNH VIÊN BACKEND .NET · SQL SERVER"
 contact_items = [
     ("phone", "0975 748 203"),
     ("email", "phungxuanquythanh@gmail.com", "mailto:phungxuanquythanh@gmail.com"),
@@ -13,7 +13,7 @@ contact_items = [
     ("location", "Hà Nội")
 ]
 
-summary = 'Full-Stack .NET Developer với 3 năm kinh nghiệm thực tế, bao gồm giai đoạn thực tập, có nền tảng mạnh về C#/ASP.NET Core Web API, SQL Server và xử lý logic nghiệp vụ. Có kinh nghiệm phát triển backend và triển khai các phần frontend cơ bản để tích hợp API và hoàn thiện luồng nghiệp vụ. Thế mạnh là các hệ thống doanh nghiệp sử dụng nhiều SQL, phát triển API, tối ưu hiệu năng và phối hợp end-to-end giữa backend và frontend.'
+summary = 'Lập trình viên Backend .NET với 3 năm kinh nghiệm thực tế, bao gồm giai đoạn thực tập, tập trung vào C#/ASP.NET Core Web API, SQL Server và xử lý logic nghiệp vụ. Có kinh nghiệm với Repository Pattern, Dapper, Stored Procedure, tối ưu xử lý dữ liệu và thiết kế chi tiết API/database ở mức module. Từng tham gia bảo trì và phát triển chức năng Bizzone cho khách hàng Yamaha. Thế mạnh là các luồng nghiệp vụ sử dụng nhiều SQL, phát triển API và tối ưu hiệu năng backend.'
 
 skills = [
     {
@@ -23,10 +23,6 @@ skills = [
     {
         "category": "BACKEND .NET",
         "items": "C#, ASP.NET Core Web API, OOP, Dapper, Entity Framework"
-    },
-    {
-        "category": "FRONTEND",
-        "items": "Frontend fundamentals, UI implementation cơ bản, REST API integration"
     },
     {
         "category": "KIẾN TRÚC & TÍCH HỢP",
@@ -47,9 +43,10 @@ projects_page1 = [
         "team_size": "8 thành viên",
         "tech": "C#, ASP.NET Core, SQL Server, Repository Pattern",
         "bullets": [
-            "Thiết kế giải pháp bulk import phương tiện: xử lý đồng thời hơn 1.000 bản ghi/lần từ file Excel, rút ngắn thời gian xử lý từ 2 phút xuống dưới 3 giây và loại bỏ 95% round-trip giữa API và Database nhờ cơ chế kiểm soát dữ liệu 2 lớp tại tầng SQL.",
+            "Thiết kế giải pháp bulk import phương tiện: xử lý hơn 1.000 bản ghi/lần từ file Excel, rút ngắn thời gian xử lý từ 2 phút xuống dưới 3 giây và loại bỏ 95% round-trip giữa API và Database nhờ cơ chế kiểm soát dữ liệu 2 lớp tại tầng SQL.",
             "Tham gia phân tích nghiệp vụ và thiết kế chi tiết ở mức module: xác định đầu vào/đầu ra API, luồng xử lý, cấu trúc dữ liệu và Stored Procedure trước khi triển khai.",
-            "Phát triển chức năng thêm mới, import dữ liệu và tra cứu lịch sử thẻ xe trong hệ thống quản lý cư dân."
+            "Phát triển chức năng thêm mới, import dữ liệu và tra cứu lịch sử thẻ xe trong hệ thống quản lý cư dân.",
+            "Phối hợp với đội Frontend để hoàn thiện luồng end-to-end: tái sử dụng component giao diện có sẵn của đội FE và điều chỉnh cho các chức năng mình phụ trách."
         ]
     },
     {
@@ -60,7 +57,7 @@ projects_page1 = [
         "team_size": "10 thành viên",
         "tech": "C#, ASP.NET Core, SQL Server, Dapper, FlexCel",
         "bullets": [
-            "Tối ưu hiệu năng luồng xử lý biến động bảo hiểm xã hội: áp dụng kỹ thuật Multiple Result Sets cùng Dapper, truy xuất đồng thời toàn bộ danh mục đối chiếu và dữ liệu mẫu chỉ trong 1 truy vấn duy nhất, giảm thiểu tối đa tải mạng.",
+            "Tối ưu hiệu năng luồng xử lý biến động bảo hiểm xã hội: áp dụng kỹ thuật Multiple Result Sets cùng Dapper, truy xuất đồng thời toàn bộ danh mục đối chiếu và dữ liệu mẫu chỉ trong 1 truy vấn duy nhất, giảm tải mạng.",
             "Tự động hóa quy trình thông báo lịch phỏng vấn và tiếp nhận nhân sự: xây dựng logic lọc dữ liệu ứng viên theo đơn vị, tự động gom nhóm để kích hoạt hệ thống push notification hàng loạt.",
             "Phát triển module báo cáo bảo hiểm và bảng lương: tích hợp và ánh xạ dữ liệu phức tạp từ SQL Server lên API; xử lý linh hoạt cấu hình gom nhóm, các trường thông tin động và chu kỳ lương doanh nghiệp."
         ]
@@ -78,13 +75,14 @@ projects_page2 = [
         "bullets": [
             'Tham gia bảo trì, sửa lỗi và phát triển bổ sung Bizzone cho khách hàng Yamaha; xây dựng function SQL phân giải thông báo đa ngôn ngữ dùng chung.',
             "Xây dựng hệ thống Stored Procedure báo cáo đánh giá năng lực đa chiều: xử lý ma trận tiêu chí khảo sát, tính điểm trung bình và phân vị xếp hạng theo bộ phận và toàn công ty cho hơn 5.000 nhân sự trên Web Portal.",
-            "Tự động hóa kết xuất báo cáo doanh nghiệp bằng FlexCel: ánh xạ dữ liệu từ cơ sở dữ liệu vào biểu mẫu động, tự động hóa xuất báo cáo khảo sát định dạng Excel và PDF với độ chính xác cao.",
+            "Tự động hóa kết xuất báo cáo doanh nghiệp bằng FlexCel: ánh xạ dữ liệu từ cơ sở dữ liệu vào biểu mẫu động, tự động hóa xuất báo cáo khảo sát định dạng Excel và PDF.",
             "Đồng bộ vòng đời nhân sự và bảo trì hệ thống Core HRM: xây dựng luồng chuyển đổi tự động từ ứng viên trúng tuyển sang nhân viên chính thức; xử lý nghiệp vụ thai sản, cam kết đào tạo và bảo trì tích hợp xác thực tập trung Keycloak."
         ]
     }
 ]
 
 contributions = [
+    "<strong>Phạm vi SQL:</strong> xây dựng và tối ưu khoảng 80 stored procedure tại UniCloud, tập trung vào truy vấn dữ liệu và logic nghiệp vụ.",
     "<strong>Quản lý phiên bản và đồng bộ cơ sở dữ liệu:</strong> xây dựng quy trình triển khai bằng migration scripts, bảo đảm tính nhất quán cấu trúc dữ liệu giữa các môi trường.",
     "<strong>Bảo trì thư viện dùng chung:</strong> phát triển và tối ưu các module tiện ích dùng chung (xử lý chuỗi, chuẩn hóa mã phản hồi API và cấu hình tài nguyên hệ thống)."
 ]
@@ -275,6 +273,13 @@ body {
   color: #1e40af;
 }
 
+.company-note {
+  font-size: 8.4pt;
+  color: #475569;
+  margin: -1mm 0 2.5mm;
+  padding: 0 3mm;
+}
+
 /* Projects */
 .project-card {
   margin-bottom: 3.5mm;
@@ -423,7 +428,7 @@ contact_html = (
     '<span class="sep">•</span>'
     '<div class="contact-item"><span>🔗</span> <a href="https://github.com/Xuanthanh-dzz" target="_blank">github.com/Xuanthanh-dzz</a></div>'
     '<span class="sep">•</span>'
-    '<div class="contact-item"><span>📍</span> <span>Hà Nội</span></div><span class="sep">•</span><div class="contact-item"><span>🚀</span> <span>Sẵn sàng nhận việc: 11/10/2026</span></div>'
+    '<div class="contact-item"><span>📍</span> <span>Hà Nội</span></div><span class="sep">•</span><div class="contact-item"><span>🚀</span> <span>Sẵn sàng nhận việc ngay</span></div>'
 )
 
 skills_html = '<div class="skills-grid">' + "".join(
@@ -458,6 +463,7 @@ page1_html = f"""
       </div>
       <span class="company-date">05/2024 – 04/10/2026 | Hà Nội</span>
     </div>
+    <div class="company-note">Làm song song 3 dự án: Resident, UniHRM và Bizzone.</div>
     {render_project(projects_page1[0])}
     {render_project(projects_page1[1])}
   </div>
@@ -574,7 +580,9 @@ md_content += f"""
 **UniCloud — Enterprise Software & Cloud Solutions**  
 *Q4/2023 – 04/10/2026 | Hà Nội*  
 
-**Lộ trình:** Thực tập Backend .NET 3 tháng → Backend .NET thử việc (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – 04/10/2026)
+**Lộ trình:** Q4/2023 – 04/2024: thực tập Backend .NET (3 tháng), sau đó thử việc → 05/2024 – 04/10/2026: Backend .NET & SQL Developer
+
+**Dự án:** làm song song 3 dự án Resident, UniHRM và Bizzone (05/2024 – 04/10/2026).
 
 ### Project: {projects_page1[0]['name']}
 *{projects_page1[0]['date']} | {projects_page1[0]['location']}*  

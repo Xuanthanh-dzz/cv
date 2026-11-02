@@ -18,13 +18,13 @@ Backend .NET Developer với gần 2,5 năm kinh nghiệm tại UniCloud, phát 
 ## Kinh nghiệm làm việc
 
 **UniCloud — Enterprise Software & Cloud Solutions**  
-*05/2024 – Hiện tại · Hà Nội*
+*05/2024 – 04/10/2026 · Hà Nội*
 
 ### Resident — Hệ thống quản lý cư dân
 
 - Tối ưu luồng nhập phương tiện từ Excel: xử lý hơn 1.000 bản ghi mỗi lần; rút thời gian từ khoảng 2 phút xuống dưới 3 giây và giảm 95% số lượt round-trip giữa API và cơ sở dữ liệu.
-- Phát triển API và logic nghiệp vụ quản lý phương tiện, thẻ cư dân, lịch sử, phân quyền và tính phí dịch vụ.
-- Đóng gói migration script cho hàm SQL `dbo.fn_get_message_lang`; phối hợp tích hợp vào thư viện `uni-common` và API ASP.NET Core (`IStringLocalizer`, `MessageFormat`) để dùng chung thông báo đa ngôn ngữ và cơ chế dự phòng.
+- Phát triển chức năng thêm mới, import dữ liệu và tra cứu lịch sử thẻ xe trong hệ thống quản lý cư dân.
+- Đóng gói migration script cho hàm SQL xử lý thông báo đa ngôn ngữ; phối hợp tích hợp vào thư viện dùng chung và API ASP.NET Core (`IStringLocalizer`) để các dự án dùng chung thông báo đa ngôn ngữ, có cơ chế dự phòng khi thiếu bản dịch.
 
 ### UniHRM — Hệ thống quản trị nhân sự và tiền lương
 

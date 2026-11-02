@@ -5,7 +5,7 @@ P = Path(__file__).parent
 
 # Candidate Information
 name = "PHUNG XUAN QUY THANH"
-role = "FULL-STACK .NET DEVELOPER · BACKEND FOCUS"
+role = "BACKEND .NET · SQL SERVER DEVELOPER"
 contact_items = [
     ("phone", "0975 748 203"),
     ("email", "phungxuanquythanh@gmail.com", "mailto:phungxuanquythanh@gmail.com"),
@@ -13,7 +13,7 @@ contact_items = [
     ("location", "Hanoi, Vietnam")
 ]
 
-summary = 'Full-Stack .NET Developer with 3 years of hands-on experience, including internship experience, with strong expertise in C#/ASP.NET Core Web APIs, SQL Server and business logic. Experienced in backend development plus basic frontend implementation for API integration and end-to-end business workflows. Strongest areas are SQL-heavy enterprise systems, API development, performance optimization and end-to-end coordination between backend and frontend.'
+summary = 'Backend .NET Developer with 3 years of hands-on experience, including internship experience, focused on C#/ASP.NET Core Web APIs, SQL Server and business logic. Hands-on experience with Repository Pattern, Dapper, Stored Procedures, data processing optimization and module-level API/database design. Contributed to Bizzone maintenance and feature development for Yamaha. Strongest areas are SQL-heavy business workflows, API development and backend performance optimization.'
 
 skills = [
     {
@@ -23,10 +23,6 @@ skills = [
     {
         "category": "BACKEND .NET",
         "items": "C#, ASP.NET Core Web API, OOP, Dapper, Entity Framework"
-    },
-    {
-        "category": "FRONTEND",
-        "items": "Frontend fundamentals, basic UI implementation, REST API integration"
     },
     {
         "category": "ARCHITECTURE & INTEGRATION",
@@ -47,9 +43,10 @@ projects_page1 = [
         "team_size": "8 members",
         "tech": "C#, ASP.NET Core, SQL Server, Repository Pattern",
         "bullets": [
-            "Architected a high-throughput vehicle bulk import engine: concurrently processed 1,000+ Excel records per batch, reducing processing time from 2 minutes to under 3 seconds and eliminating 95% of API-to-database round-trips via a two-tier database-level validation mechanism.",
+            "Designed a bulk vehicle import from Excel: processes 1,000+ records per batch, cutting processing time from 2 minutes to under 3 seconds and eliminating 95% of API-to-database round-trips through two-layer validation at the SQL level.",
             "Contributed to module-level technical design: defined API inputs/outputs, business flows, data structures and Stored Procedures before implementation.",
-            "Developed vehicle card creation, data import and history lookup features in the resident management system."
+            "Developed vehicle card creation, data import and history lookup features in the resident management system.",
+            "Worked with the Frontend team to complete end-to-end flows: reused the FE team's existing UI components and adapted them for the features I owned."
         ]
     },
     {
@@ -60,9 +57,9 @@ projects_page1 = [
         "team_size": "10 members",
         "tech": "C#, ASP.NET Core, SQL Server, Dapper, FlexCel",
         "bullets": [
-            "Optimized social insurance adjustment processing: leveraged Dapper Multiple Result Sets to retrieve master lookup catalogs and reconciliation datasets in a single database query, drastically minimizing network latency and overhead.",
+            "Optimized social insurance adjustment processing: leveraged Dapper Multiple Result Sets to retrieve master lookup catalogs and reconciliation datasets in a single database query, reducing network load.",
             "Automated candidate onboarding and interview scheduling workflows: built business filtering logic by organizational unit, batch-grouping candidates to trigger automated push notifications.",
-            "Developed insurance and payroll reporting modules: orchestrated and mapped complex relational data to APIs; flexibly handled dynamic fields, custom aggregation rules, and enterprise payroll cycles."
+            "Developed insurance and payroll reporting modules: mapped complex SQL Server data to APIs; handled configurable grouping, dynamic fields and company payroll cycles."
         ]
     }
 ]
@@ -77,16 +74,17 @@ projects_page2 = [
         "tech": "C#, ASP.NET Core, SQL Server, FlexCel, Keycloak",
         "bullets": [
             'Contributed to Bizzone maintenance, bug fixes and additional features for Yamaha; developed a shared SQL function for multilingual message resolution.',
-            "Engineered core Stored Procedures for 360-degree competency evaluation reporting: processed multi-criteria evaluation matrices, computing department and company-wide percentile rankings and averages for 5,000+ employees on the Web Portal.",
-            "Automated enterprise report generation using FlexCel: mapped relational database records into dynamic templates, delivering highly accurate Excel and PDF survey evaluation exports.",
-            "Synchronized employee lifecycle workflows and maintained Core HRM systems: implemented automated conversion pipelines from accepted candidates to full-time staff; handled maternity and training bond policies; maintained centralized Keycloak SSO authentication."
+            "Built Stored Procedures for multi-dimensional competency evaluation reports: processed survey criteria matrices and computed averages and percentile rankings by department and company-wide for 5,000+ employees on the Web Portal.",
+            "Automated report generation with FlexCel: mapped database records into dynamic templates and exported survey reports to Excel and PDF.",
+            "Maintained Core HRM employee lifecycle workflows: built the automated conversion of accepted candidates into official employees; handled maternity and training commitment rules; maintained Keycloak SSO integration."
         ]
     }
 ]
 
 contributions = [
-    "<strong>Database versioning and schema synchronization:</strong> established automated deployment workflows via database migration scripts, maintaining absolute schema consistency across multiple environments.",
-    "<strong>Shared library maintenance:</strong> engineered and optimized shared enterprise utility libraries (string manipulation, standardized API response envelopes, and centralized configuration loaders)."
+    "<strong>SQL scope:</strong> built and optimized around 80 stored procedures at UniCloud, focused on data queries and business logic.",
+    "<strong>Database versioning and schema synchronization:</strong> set up deployments with database migration scripts, keeping schemas consistent across environments.",
+    "<strong>Shared library maintenance:</strong> developed and optimized shared utility modules (string handling, standardized API response codes and system resource configuration)."
 ]
 
 # CSS Stylesheet
@@ -275,6 +273,13 @@ body {
   color: #1e40af;
 }
 
+.company-note {
+  font-size: 8.4pt;
+  color: #475569;
+  margin: -1mm 0 2.5mm;
+  padding: 0 3mm;
+}
+
 /* Projects */
 .project-card {
   margin-bottom: 3.5mm;
@@ -423,7 +428,7 @@ contact_html = (
     '<span class="sep">•</span>'
     '<div class="contact-item"><span>🔗</span> <a href="https://github.com/Xuanthanh-dzz" target="_blank">github.com/Xuanthanh-dzz</a></div>'
     '<span class="sep">•</span>'
-    '<div class="contact-item"><span>📍</span> <span>Hanoi, Vietnam</span></div><span class="sep">•</span><div class="contact-item"><span>🚀</span> <span>Available to start: 11/10/2026</span></div>'
+    '<div class="contact-item"><span>📍</span> <span>Hanoi, Vietnam</span></div><span class="sep">•</span><div class="contact-item"><span>🚀</span> <span>Available to start immediately</span></div>'
 )
 
 skills_html = '<div class="skills-grid">' + "".join(
@@ -458,6 +463,7 @@ page1_html = f"""
       </div>
       <span class="company-date">05/2024 – 04/10/2026 | Hanoi</span>
     </div>
+    <div class="company-note">Worked on 3 projects in parallel: Resident, UniHRM and Bizzone.</div>
     {render_project(projects_page1[0])}
     {render_project(projects_page1[1])}
   </div>
@@ -574,7 +580,9 @@ md_content += f"""
 **UniCloud — Enterprise Software & Cloud Solutions**  
 *Q4/2023 – 04/10/2026 | Hanoi*  
 
-**Career progression:** 3-month Backend .NET internship → Probationary Backend .NET Developer (Q4/2023 – 04/2024) → Backend .NET & SQL Developer (05/2024 – 04/10/2026)
+**Career progression:** Q4/2023 – 04/2024: 3-month Backend .NET internship, then probation → 05/2024 – 04/10/2026: Backend .NET & SQL Developer
+
+**Projects:** worked on Resident, UniHRM and Bizzone in parallel (05/2024 – 04/10/2026).
 
 ### Project: {projects_page1[0]['name']}
 *{projects_page1[0]['date']} | {projects_page1[0]['location']}*  

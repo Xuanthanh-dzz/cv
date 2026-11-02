@@ -1,6 +1,6 @@
-# Curriculum Vitae — Phùng Xuân Quý Thành | Full-Stack .NET Developer
+# Curriculum Vitae — Phùng Xuân Quý Thành
 
-> **Full-Stack .NET Developer · Backend Focus**  
+> **Backend .NET · SQL Server Developer**  
 > 📞 0975 748 203 | ✉️ phungxuanquythanh@gmail.com | 🌐 [github.com/Xuanthanh-dzz](https://github.com/Xuanthanh-dzz) | 📍 Hà Nội
 
 ---
